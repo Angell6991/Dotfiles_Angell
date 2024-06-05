@@ -5,7 +5,7 @@
 echo "Instalando programas..."
 
 # Programas esenciales
-sudo pacman -S sxhkd bspwm polybar zathura dmenu neovim picom kitty nitrogen ranger lxappearance font-manager python python-pip scrot neofetch i3lock feh xournalpp unzip unrar zsh imagemagick
+sudo pacman -S sxhkd bspwm polybar zathura dmenu neovim picom kitty nitrogen ranger lxappearance font-manager python python-pip scrot neofetch i3lock eog xournalpp unzip unrar zsh imagemagick
 
 # portapapeles 
 sudo pacman -S xclip
