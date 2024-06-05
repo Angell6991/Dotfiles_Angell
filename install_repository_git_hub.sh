@@ -31,6 +31,7 @@ git clone --depth 1 https://github.com/wbthomason/packer.nvim\
 echo "Moviemdo repositorios y crando diretorios..."
 mkdir ~/Projects
 mkdir ~/Documents
+mkdir ~/Documents/git_hub
 mkdir ~/Imágenes
 mkdir ~/Imágenes/capturas
 
