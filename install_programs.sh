@@ -25,5 +25,15 @@ sudo pacman -S ntp
 sudo systemctl enable ntpd
 sudo systemctl start ntpd
 
+# programas para nvim
+# programas para Telescope
+sudo pacman -S ripgrep
+sudo pacman -S fd
+
+# autocompltado de nvim
+sudo pacman -S nodejs
+
+
+
 
 echo "Instalación completada"
