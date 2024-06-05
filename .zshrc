@@ -73,9 +73,10 @@ ZSH_THEME="intheloop"  #(jaischeema,half-life,darkblood,sorin,intheloop,nicoulaj
 plugins=(git
 	# fast-syntax-highlighting
 	zsh-autosuggestions
-	web-search)
+	web-search
+    fast-syntax-highlighting)
 
-source ~/.path/to/fsh/fast-syntax-highlighting.plugin.zsh
+# source ~/.path/to/fsh/fast-syntax-highlighting.plugin.zsh
 
 source $ZSH/oh-my-zsh.sh
 

@@ -4,8 +4,17 @@
 
 echo "Moviendo archivos de configuración..."
 
+# confuguracion shell terminal
 mv .zsh_history .zshrc ~/
 mv starship.toml ~/.config
+
+#configuracion xorg,con el comando "startx" se iniacia el sistema de ventanas
+mv .xinitrc ~/
+
+# configuracion pacman
+sudo mv pacman.conf /etc/
+
+# configuracion  touchpad
 sudo mv 30-touchpad.conf /etc/X11/xorg.conf.d
 
 echo "Operación completada" 
