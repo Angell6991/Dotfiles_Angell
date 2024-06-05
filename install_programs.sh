@@ -13,4 +13,10 @@ sudo pacman -S xclip
 # Sistemas de ventanas 
 sudo pacman -S xorg-server xorg-xinit xorg-xrandr
 
+# controlador de audio
+sudo pacman -S alsa-utils
+
+# controlador de brllo pantalla
+sudo pacman -S brightnessctl
+
 echo "Instalación completada"
