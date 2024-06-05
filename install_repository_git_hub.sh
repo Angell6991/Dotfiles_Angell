@@ -51,8 +51,7 @@ sudo unzip Fonts/3270.zip -d /usr/share/fonts/3270/
 sudo unzip Fonts/Inconsolata.zip -d /usr/share/fonts/Inconsolata/
 
 sudo pacman -S ttf-dejavu ttf-liberation ttf-inconsolata ttf-roboto ttf-ubuntu-font-family
-
-
+sudo pacman -S ttf-freefont noto-fonts ttf-arphic-uming ttf-arphic-ukai ttf-indic-otf
 
 echo "Instalación completada, revisa los scrit.sh en cada directorio, tal que sean ejecutables."
 
