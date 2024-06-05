@@ -33,7 +33,7 @@ sudo pacman -S fd
 # autocompltado de nvim
 sudo pacman -S nodejs
 sudo pacman -S wget rustup composer php nodejs npm luarocks jdk-openjdk julia ruby
-
+sudo npm install -g tree-sitter-cli
 
 
 echo "Instalación completada"
