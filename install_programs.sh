@@ -19,4 +19,11 @@ sudo pacman -S alsa-utils
 # controlador de brllo pantalla
 sudo pacman -S brightnessctl
 
+# Configurando la hora para bogota Colombia
+sudo timedatectl set-timezone America/Bogota
+sudo pacman -S ntp
+sudo systemctl enable ntpd
+sudo systemctl start ntpd
+
+
 echo "Instalación completada"
