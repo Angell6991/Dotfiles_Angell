@@ -4,6 +4,8 @@
 # Path to your oh-my-zsh installation.
 export ZSH="$HOME/.oh-my-zsh"
 
+export EXA_COLORS="sn=1;36:uu=1;35:da=0;37"
+
 # Set name of the theme to load --- if set to "random", it will
 # load a random theme each time oh-my-zsh is loaded, in which case,
 # to know which specific one was loaded, run: echo $RANDOM_THEME
@@ -109,10 +111,10 @@ source $ZSH/oh-my-zsh.sh
 alias nv="nvim"
 alias icat="kitty +icat"
 alias suspend="systemctl suspend"
-alias inf_battery="sudo tlp-stat -b"
 alias py="python"
 alias buscar="sudo find / -name"
 alias neofetch="neofetch --backend kitty --source /home/angell/Imágenes/.wallpaper/hello-my-fascination-with-nature-and-the-aesthetics-of-v0-6gaubmc5c7ea1.jpg"
+alias ls="exa --icons"
 
 # informacion bateria istalar: sudo pacman -S tlp
 # informacion bateria: $ sudo tlp-stat -b
@@ -120,6 +122,7 @@ alias neofetch="neofetch --backend kitty --source /home/angell/Imágenes/.wallpa
 #Iniciar_Starship
 eval "$(starship init zsh)"
 
+# export PATH=~/.Install_packages_python:$PATH
 export PATH=$PATH:/home/angell/.local/bin
 export PATH=$PATH:/home/angell/.programs
 export PATH=$PATH:/home/angell/.eww/target/release
