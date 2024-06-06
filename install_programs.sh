@@ -36,5 +36,8 @@ sudo pacman -S nodejs
 sudo pacman -S wget rustup composer php nodejs npm luarocks jdk-openjdk julia ruby
 sudo npm install -g tree-sitter-cli
 
+# Dependencias zathura and LaTex para VimTex
+sudo pacman -S biber xdotool
+
 
 echo "Instalación completada"
