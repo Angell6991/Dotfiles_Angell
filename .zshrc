@@ -134,6 +134,7 @@ alias py="python"
 alias buscar="sudo find / -name"
 alias neofetch="neofetch --backend kitty --source /home/angell/Imágenes/.wallpaper/hello-my-fascination-with-nature-and-the-aesthetics-of-v0-6gaubmc5c7ea1.jpg"
 alias ls="exa --icons"
+alias tree="exa --tree --level=2"
 
 # informacion bateria istalar: sudo pacman -S tlp
 # informacion bateria: $ sudo tlp-stat -b
