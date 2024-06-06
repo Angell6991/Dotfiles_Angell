@@ -4,7 +4,26 @@
 # Path to your oh-my-zsh installation.
 export ZSH="$HOME/.oh-my-zsh"
 
-export EXA_COLORS="sn=1;36:uu=1;35:da=0;37"
+
+# export EXA_COLORS="\
+# ur=1;31:\    # Permisos de lectura para el propietario            
+# uw=1;36:\    # Permisos de escritura para el propietario 
+# ux=1;36:\    # Permisos de ejecución para el propietario 
+# gr=1;36:\    # Permisos de lectura para el grupo                  
+# gw=1;36:\    # Permisos de escritura para el grupo 
+# gx=1;36:\    # Permisos de ejecución para el grupo 
+# tr=1;36:\    # Permisos de lectura para otros
+# tw=1;36:\    # Permisos de escritura para otros 
+# tx=1;36:\    # Permisos de ejecución para otros 
+
+
+# export EXA_COLORS="\
+# sn=1;36:\    # Columna Zise
+# uu=1;35:\    # Columna User
+# da=0;37:\    # Columna Data modified
+# "
+
+export EXA_COLORS="ur=1;36:uw=1;37:ux=1;35:gr=0;36:gw=0;37:gx=0;35:tr=1;36:tw=1;37:tx=1;35:sn=1;36:uu=1;35:da=0;37"
 
 # Set name of the theme to load --- if set to "random", it will
 # load a random theme each time oh-my-zsh is loaded, in which case,
