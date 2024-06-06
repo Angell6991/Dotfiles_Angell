@@ -12,6 +12,7 @@ sudo pacman -S xclip
 
 # Sistemas de ventanas 
 sudo pacman -S xorg-server xorg-xinit xorg-xrandr
+sudo pacman -S xorg-xsetroot
 
 # controlador de audio
 sudo pacman -S alsa-utils
