@@ -20,6 +20,9 @@ sudo mv pip.conf
 # configuracion  touchpad
 sudo mv 30-touchpad.conf /etc/X11/xorg.conf.d
 
+# hacer que root use zsh
+sudo chsh -s /bin/zsh root
+
 echo "Operación completada" 
 
 ######################################################
