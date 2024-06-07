@@ -1,3 +1,15 @@
+# Instalación
+
+ejecutar en el orden:
+
+- [install_programs.sh]
+- [install_repository_git_hub.sh]
+- [conf_shell_and_touch_mause.sh]
+
+## Instalar repositorios AUR
+
+[Instalaón yay](https://itsfoss.com/install-yay-arch-linux/)
+
 ## Instalar LaTex
 
 ```sh
