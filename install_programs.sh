@@ -9,6 +9,7 @@ sudo pacman -S sxhkd bspwm polybar zathura dmenu neovim picom kitty nitrogen ran
 
 # library_python
 sudo pacman -S tk python-matplotlib python-numpy
+sudo pacman -S python-distutils-extra
 
 # portapapeles 
 sudo pacman -S xclip
