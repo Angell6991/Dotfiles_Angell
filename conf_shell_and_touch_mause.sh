@@ -15,7 +15,7 @@ mv .xinitrc ~/
 sudo mv pacman.conf /etc/
 
 # config para permisoso de pip
-sudo mv pip.conf
+sudo mv pip.conf ~/.config/pip/
 
 # configuracion  touchpad
 sudo mv 30-touchpad.conf /etc/X11/xorg.conf.d
