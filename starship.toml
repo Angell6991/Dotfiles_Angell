@@ -32,10 +32,10 @@ format = "[[(  $conflicted$untracked$modified$staged$renamed$deleted)](#00CCD
 # format = "[[(  $conflicted$untracked$modified$staged$renamed$deleted)](218) ($ahead_behind$stashed)]($style)"
 style = "#00CCDE"
 conflicted = "*"
-untracked = "**"
+untracked = "  "
 modified = "  "
 staged = "  "
-renamed = "***"
+renamed = " 󰏪 "
 deleted = " 󱂥 "
 stashed = "≡"
 

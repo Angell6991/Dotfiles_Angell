@@ -24,7 +24,7 @@ export ZSH="$HOME/.oh-my-zsh"
 # "
 
 export EXA_COLORS="ur=1;36:uw=1;37:ux=1;35:gr=0;36:gw=0;37:gx=0;35:tr=1;36:tw=1;37:tx=1;35:sn=1;36:uu=1;35:da=0;37"
-export LS_COLORS="$LS_COLORS:*.py=01;30:*.tex=01;35:*.txt=01;30:*.dat=01;30:*.md=01;30:*"
+export LS_COLORS="$LS_COLORS:*.py=1;38:*.tex=0;35:*.txt=0;38:*.dat=0;38:*.md=0;38:*"
 
 # Set name of the theme to load --- if set to "random", it will
 # load a random theme each time oh-my-zsh is loaded, in which case,
@@ -133,8 +133,8 @@ alias icat="kitty +icat"
 alias suspend="systemctl suspend"
 alias py="python"
 alias buscar="sudo find / -name"
-alias neofetch="neofetch --backend kitty --source /home/angell/Imágenes/.wallpaper/hello-my-fascination-with-nature-and-the-aesthetics-of-v0-6gaubmc5c7ea1.jpg"
-alias neofetch_01="neofetch --backend kitty --source /home/angell/Imágenes/.wallpaper/pngwing_001.png"
+alias neofetch_01="neofetch --backend kitty --source /home/angell/Imágenes/.wallpaper/hello-my-fascination-with-nature-and-the-aesthetics-of-v0-6gaubmc5c7ea1.jpg"
+alias neofetch="neofetch --backend kitty --source /home/angell/Imágenes/.wallpaper/pngwing_001.png"
 # alias ls="exa --icons"
 alias ls="exa --icons --group-directories-first"
 # alias ls="exa --icons --sort=extension --group-directories-first"
@@ -151,4 +151,5 @@ eval "$(starship init zsh)"
 export PATH=$PATH:/home/angell/.local/bin
 export PATH=$PATH:/home/angell/.programs
 export PATH=$PATH:/home/angell/.eww/target/release
+
 
