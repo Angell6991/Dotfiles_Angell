@@ -52,10 +52,12 @@ echo install fonts
 sudo mkdir /usr/share/fonts/3270
 sudo mkdir /usr/share/fonts/font-crackman
 sudo mkdir /usr/share/fonts/Inconsolata
+sudo mkdir /usr/share/fonts/clock_font
 # extrae contenido 
 sudo unzip Fonts/font-crackman.zip -d /usr/share/fonts/font-crackman/
 sudo unzip Fonts/3270.zip -d /usr/share/fonts/3270/
 sudo unzip Fonts/Inconsolata.zip -d /usr/share/fonts/Inconsolata/
+sudo unzip Fonts/digital-dismay.zip -d /usr/share/fonts/clock_font/
 
 sudo pacman -S ttf-dejavu ttf-liberation ttf-inconsolata ttf-roboto ttf-ubuntu-font-family
 sudo pacman -S ttf-freefont noto-fonts ttf-arphic-uming ttf-arphic-ukai ttf-indic-otf
