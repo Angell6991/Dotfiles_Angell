@@ -5,7 +5,7 @@
 echo "Moviendo archivos de configuración..."
 
 # confuguracion shell terminal
-mv .zsh_history .zshrc ~/
+mv .zsh_history .zshrc .gitconfig ~/
 mv starship.toml ~/.config
 
 #configuracion xorg,con el comando "startx" se iniacia el sistema de ventanas

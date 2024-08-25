@@ -140,6 +140,7 @@ alias ls="exa --icons --group-directories-first"
 # alias ls="exa --icons --sort=extension --group-directories-first"
 # alias tree="exa --icons --tree --level=2"
 alias tree="exa --icons --tree --level=2 --group-directories-first"
+alias cat="bat" 
 
 # informacion bateria istalar: sudo pacman -S tlp
 # informacion bateria: $ sudo tlp-stat -b

@@ -1,0 +1,31 @@
+[user]
+	name = Angell6991
+	email = email----@gmail.com
+[core]
+	editor = nvim
+    autocrlf = input
+
+
+#################################################################
+###----------------------git-delta_config---------------------###
+#################################################################
+[core]
+    pager = delta
+
+[interactive]
+    diffFilter = delta --color-only
+
+[delta]
+    ; side-by-side = true  # mostrar  sintaxis tanto en los paneles izquierdo
+    line-numbers = true
+    ; dark = true
+    ; light = false
+
+[merge]
+    conflictstyle = diff3
+
+[diff]
+    colorMoved = default
+
+[pull]
+    rebase = false
