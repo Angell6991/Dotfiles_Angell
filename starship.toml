@@ -19,7 +19,7 @@ style = "blue"
 
 [character]
 success_symbol = "[❯](#b2b2b2)"
-error_symbol = "[󰚌 ❯](#ff44a0)"
+error_symbol = "[󰚌 ](#00CCDE) [❯](#ff44a0)"
 vimcmd_symbol = "[ ](#8d8d8d)"
 
 [git_branch]
