@@ -7,6 +7,7 @@ echo "Moviendo archivos de configuración..."
 # confuguracion shell terminal
 mv .zsh_history .zshrc .gitconfig ~/
 mv starship.toml ~/.config
+mv .xprofile ~/
 
 #configuracion xorg,con el comando "startx" se iniacia el sistema de ventanas
 mv .xinitrc ~/
