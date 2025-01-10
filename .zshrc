@@ -58,7 +58,6 @@ alias cat="bat"
 # informacion bateria istalar: sudo pacman -S tlp
 # informacion bateria: $ sudo tlp-stat -b
 export PATH=$PATH:/home/angell/.local/bin
-export PATH=$PATH:/home/angell/.programs
 export PATH=$PATH:/home/angell/.eww/target/release
 
 
