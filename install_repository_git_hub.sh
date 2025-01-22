@@ -4,19 +4,14 @@
 
 echo "Copiando Repositorios..."
 
-git clone https://github.com/Angell6991/.jupyter.git
-git clone https://github.com/Angell6991/.programs.git
 git clone https://github.com/Angell6991/.wallpaper.git
-git clone https://github.com/Angell6991/bspwm.git
 git clone https://github.com/Angell6991/dmenu.git
 git clone https://github.com/Angell6991/kitty.git
-git clone https://github.com/Angell6991/neofetch.git
-git clone https://github.com/Angell6991/picom.git
-git clone https://github.com/Angell6991/polybar.git
 git clone https://github.com/Angell6991/ranger.git
-git clone https://github.com/Angell6991/sxhkd.git
 git clone https://github.com/Angell6991/zathura.git
 git clone https://github.com/Angell6991/nvim.git
+git clone https://github.com/Angell6991/fastfetch.git
+git clone https://github.com/Angell6991/btop.git
 
 
 # install oh-my-zsh y plugins
@@ -40,10 +35,8 @@ mkdir ~/Documents/git_hub
 mkdir ~/Imágenes
 mkdir ~/Imágenes/capturas
 
-mv .jupyter ~/
-mv .programs ~/
 mv .wallpaper ~/Imágenes
-mv bspwm dmenu kitty neofetch picom polybar ranger sxhkd zathura nvim ~/.config
+mv  dmenu kitty fastfetch ranger btop zathura nvim ~/.config
 
 
 echo install fonts

@@ -5,7 +5,7 @@
 echo "Instalando programas..."
 
 # Programas esenciales
-sudo pacman -S sxhkd bspwm polybar zathura dmenu neovim picom kitty nitrogen ranger lxappearance font-manager python python-pip scrot neofetch i3lock eog xournalpp unzip unrar zsh imagemagick w3m exa htop feh tlp bat git-delta dosfstools pavucontrol gnome-calendar gnome-clocks
+sudo pacman -S  zathura dmenu neovim  kitty  ranger lxappearance font-manager python python-pip eog xournalpp unzip unrar zsh imagemagick  exa btop feh tlp bat git-delta dosfstools pavucontrol gnome-calendar gnome-clocks
 
 # library_python
 sudo pacman -S tk python-matplotlib python-numpy
@@ -21,7 +21,7 @@ sudo pacman -S xorg-xsetroot
 # controlador de audio
 sudo pacman -S alsa-utils
 
-# controlador de brllo pantalla
+# controlador de brillo pantalla
 sudo pacman -S brightnessctl
 
 # Configurando la hora para bogota Colombia
@@ -35,7 +35,7 @@ sudo systemctl start ntpd
 sudo pacman -S ripgrep
 sudo pacman -S fd
 
-# autocompltado de nvim
+# autocompletado de nvim
 sudo pacman -S nodejs
 sudo pacman -S wget rustup composer php nodejs npm luarocks jdk-openjdk julia ruby
 sudo npm install -g tree-sitter-cli
