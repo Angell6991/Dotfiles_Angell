@@ -5,7 +5,7 @@
 echo "Instalando programas..."
 
 # Programas esenciales
-sudo pacman -S  zathura dmenu neovim  kitty  ranger lxappearance font-manager python python-pip eog xournalpp unzip unrar zsh imagemagick  exa btop feh tlp bat git-delta dosfstools pavucontrol gnome-calendar gnome-clocks
+sudo pacman -S  zathura dmenu neovim  kitty  ranger lxappearance font-manager python python-pip eog xournalpp unzip unrar zsh imagemagick  exa btop feh tlp bat git-delta dosfstools pavucontrol gnome-calendar gnome-clocks hyprlock 
 
 # library_python
 sudo pacman -S tk python-matplotlib python-numpy
