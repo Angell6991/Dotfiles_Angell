@@ -7,6 +7,10 @@ echo "Instalando programas..."
 # Programas esenciales
 sudo pacman -S  zathura dmenu neovim  kitty  ranger lxappearance font-manager python python-pip eog xournalpp unzip unrar zsh imagemagick  exa btop feh tlp bat git-delta dosfstools pavucontrol gnome-calendar gnome-clocks hyprlock 
 
+# config_tlp_gestor_de_energia
+sudo systemctl enable tlp 
+sudo systemctl start tlp 
+
 # library_python
 sudo pacman -S tk python-matplotlib python-numpy
 sudo pacman -S python-distutils-extra
