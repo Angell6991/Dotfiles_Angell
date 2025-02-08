@@ -1,3 +1,7 @@
 export GTK_THEME=Graphite-green-Dark
 export GTK_ICON_THEME=Adwaita
 export GTK_FONT_NAME="Inconsolata NF 14"
+
+
+export XCURSOR_THEME="Oreo White Cursors"
+export XCURSOR_SIZE=24  
