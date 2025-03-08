@@ -55,6 +55,7 @@ sudo unzip Fonts/digital-dismay.zip -d /usr/share/fonts/clock_font/
 sudo pacman -S ttf-dejavu ttf-liberation ttf-inconsolata ttf-roboto ttf-ubuntu-font-family
 sudo pacman -S ttf-freefont noto-fonts ttf-arphic-uming ttf-arphic-ukai ttf-indic-otf
 sudo pacman -S noto-fonts-cjk
+sudo pacman -S noto-fonts-emoji noto-fonts-extra 
 
 echo "Instalación completada, revisa los scrit.sh en cada directorio, tal que sean ejecutables."
 
