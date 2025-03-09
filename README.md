@@ -1,17 +1,36 @@
-# Instalación
+<h2 align="center"> Hyprland + EWW </h2>
 
-ejecutar en el orden:
 
-- install_programs.sh
-- install_repository_git_hub.sh
-- conf_shell_and_touch_mause.sh
+## Instalación 
+```sh
+./install
+```
+
+<p align="center">
+  <img src="suport_readme/eww.gif">
+</p>
+
 
 ## Instalar repositorios AUR
 
 [Instalación yay](https://itsfoss.com/install-yay-arch-linux/)
 
-## Instalar LaTex
-
+Instalar FreeTube:
 ```sh
-sudo pacman -S texlive-bibtexextra texlive-core texlive-fontsextra texlive-formatsextra texlive-games texlive-humanities texlive-latexextra texlive-music texlive-pictures texlive-pstricks texlive-science
+yay -S freetube
 ```
+Instalar Zen-browser:
+```sh
+yay -S zen-browser-bin
+```
+
+## Instalar LaTex
+```sh
+sudo pacman -S texlive
+```
+
+## EWW
+[Instalación Elkowars Wacky Widgets](https://elkowar.github.io/eww/)
+
+
+
