@@ -29,8 +29,11 @@ yay -S zen-browser-bin
 sudo pacman -S texlive
 ```
 
-## EWW
+## Instalar EWW
 [Instalación Elkowars Wacky Widgets](https://elkowar.github.io/eww/)
 
+
+## Instalar los temas del cursor y GTK
+[Instalación temas GTK](https://github.com/Angell6991/Dotfiles_Angell/tree/master/Themes)
 
 
