@@ -3,7 +3,7 @@
 
 ## Instalación 
 ```sh
-./install
+sudo ./install
 ```
 
 <p align="center">
