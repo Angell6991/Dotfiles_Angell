@@ -25,7 +25,7 @@ And move the folders to the directory:
 /usr/share/icons
 ```
 
-##  windows themes GTK
+##  Windows themes GTK
 
 To install the window themes you have to extract the .tar files: 
 ```sh

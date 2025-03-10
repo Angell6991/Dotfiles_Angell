@@ -54,11 +54,11 @@ sudo pacman -S texlive
 ```
 
 ## Install EWW
-[Instalación Elkowars Wacky Widgets](https://elkowar.github.io/eww/)
+[Install Elkowars Wacky Widgets](https://elkowar.github.io/eww/)
 
 
 ## Install Cursor and GTK Themes
-[Instalación temas GTK](https://github.com/Angell6991/Dotfiles_Angell/tree/master/Themes)
+[Install themes GTK](https://github.com/Angell6991/Dotfiles_Angell/tree/master/Themes)
 
 
 ## Install retroarch
