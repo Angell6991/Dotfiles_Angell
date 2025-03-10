@@ -1,38 +1,38 @@
 #   Documentation
 
-##  Scripts en bash
+##  Scripts in bash
 
-Para los documentos .sh, hacerlos ejecutables con:
+For .sh documents, make them executable with:
 ```sh
 chmod u+x name_file.sh
 ```
 
-Cualquier ejecutable se corre desde terminal con:
+Any executable is run from terminal with:
 ```sh
 ./name_file
 ```
 
 
-##  temas del cursor
+##  Cursor themes
 
-Para instalar los cursores hay que extraer los .tar : 
+To install the cursors you have to extract the .tar files: 
 ```sh
 tar -xf oreo-white-cursors.tar.gz
 ```
 
-Y mover las carpetas al directorio:
+And move the folders to the directory:
 ```sh
 /usr/share/icons
 ```
 
-##  temas de ventanas GTK
+##  windows themes GTK
 
-Para instalar los los temas de ventana hay que extraer los .tar : 
+To install the window themes you have to extract the .tar files: 
 ```sh
 tar -xf Graphite-Dark.tar.xz
 ```
-Y mover las carpetas al directorio:
 
+And move the folders to the directory:
 ```sh
 /usr/share/themes
 ```
