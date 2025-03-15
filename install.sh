@@ -140,14 +140,14 @@ echo    "Moviendo archivos de configuración: "
 ###--------confuguracion_shell_terminal-----------###
 mv  .zsh_history .zshrc .gitconfig /home/$var_user/
 mv  starship.toml /home/$var_user/.config
-mv  .xprofile /home/$var_user/
+# mv  .xprofile /home/$var_user/
 
 ##########################################
 ### configuracion xorg,                ### 
 ### con el comando "startx"            ###
 ### se iniacia el sistema de ventanas  ### 
 ##########################################
-mv  .xinitrc /home/$var_user/
+# mv  .xinitrc /home/$var_user/
 
 ###-----------configuracion_pacman----------------###
 mv  pacman.conf /etc/
