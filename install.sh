@@ -16,7 +16,7 @@ echo    "Iniciando la instalando de programas"
 
 echo    "Programas esenciales:"
 
-pacman -S  zathura zathura-pdf-mupdf zathura-ps zathura-djvu zathura-cb dmenu neovim  kitty  ranger nwg-look font-manager python python-pip eog xournalpp unzip unrar zsh imagemagick  exa btop  bat git-delta dosfstools pavucontrol gnome-calendar gnome-clocks hyprland hyprlock hypridle hyprpaper grim slurp lightdm mpv wf-recorder cmus timeshift xclip wl-clipboard alsa-utils brightnessctl tlp
+pacman -S  zathura zathura-pdf-mupdf zathura-ps zathura-djvu zathura-cb dmenu neovim  kitty  ranger nwg-look font-manager python python-pip eog xournalpp unzip unrar zsh imagemagick  exa btop  bat git-delta dosfstools pavucontrol gnome-calendar gnome-clocks hyprland hyprlock hypridle hyprpaper grim slurp lightdm mpv wf-recorder cmus timeshift xclip wl-clipboard alsa-utils brightnessctl tlp mako libnotify pamixer
 
 # config_tlp_gestor_de_energia
 # sudo pacman -S tlp
@@ -79,6 +79,7 @@ git clone https://github.com/Angell6991/lightdm.git
 
 git clone https://github.com/Angell6991/hypr.git
 git clone https://github.com/Angell6991/eww.git
+git clone https://github.com/Angell6991/mako.git
 
 
 ###----------install_oh-my-zsh_y_plugins----------###
@@ -107,7 +108,7 @@ mkdir   /home/$var_user/Imágenes
 mkdir   /home/$var_user/Imágenes/capturas
 
 mv  .wallpaper /home/$var_user/Imágenes
-mv  dmenu kitty fastfetch ranger btop zathura hypr eww nvim /home/$var_user/.config
+mv  dmenu kitty fastfetch ranger btop zathura hypr eww nvim mako /home/$var_user/.config
 mv  lightdm /etc/
 
 
