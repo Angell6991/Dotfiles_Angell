@@ -16,7 +16,7 @@ echo    "Iniciando la instalando de programas"
 
 echo    "Programas esenciales:"
 
-pacman -S  zathura zathura-pdf-mupdf zathura-ps zathura-djvu zathura-cb dmenu neovim  kitty  ranger nwg-look font-manager python python-pip eog xournalpp unzip unrar zsh imagemagick  exa btop  bat git-delta dosfstools pavucontrol gnome-calendar gnome-clocks hyprland hyprlock hypridle hyprpaper grim slurp lightdm mpv wf-recorder cmus timeshift xclip wl-clipboard alsa-utils brightnessctl tlp mako libnotify pamixer
+pacman -S  zathura zathura-pdf-mupdf zathura-ps zathura-djvu zathura-cb dmenu neovim  kitty  ranger nwg-look font-manager python python-pip eog xournalpp unzip unrar zsh imagemagick  exa btop  bat git-delta dosfstools pavucontrol gnome-calendar gnome-clocks hyprland hyprlock hypridle hyprpaper grim slurp lightdm mpv wf-recorder cmus timeshift xclip wl-clipboard alsa-utils brightnessctl tlp mako libnotify pamixer ffmpeg
 
 # config_tlp_gestor_de_energia
 # sudo pacman -S tlp
