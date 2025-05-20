@@ -16,7 +16,7 @@ echo    "Iniciando la instalando de programas"
 
 echo    "Programas esenciales:"
 
-pacman -S  zathura zathura-pdf-mupdf zathura-ps zathura-djvu zathura-cb dmenu neovim  kitty  ranger nwg-look font-manager python python-pip eog xournalpp unzip unrar zsh imagemagick  exa btop  bat git-delta dosfstools pavucontrol gnome-calendar gnome-clocks hyprland hyprlock hypridle hyprpaper grim slurp lightdm mpv wf-recorder cmus timeshift xclip wl-clipboard alsa-utils brightnessctl tlp mako libnotify pamixer ffmpeg
+pacman -S  zathura zathura-pdf-mupdf zathura-ps zathura-djvu zathura-cb dmenu neovim  kitty  yazi nwg-look font-manager python python-pip eog xournalpp unzip unrar zsh imagemagick  exa btop  bat git-delta dosfstools pavucontrol gnome-calendar gnome-clocks hyprland hyprlock hypridle hyprpaper grim slurp lightdm mpv wf-recorder cmus timeshift xclip wl-clipboard alsa-utils brightnessctl tlp mako libnotify pamixer ffmpeg
 
 # config_tlp_gestor_de_energia
 # sudo pacman -S tlp
@@ -70,7 +70,7 @@ echo    "Copiando Repositorios: "
 git clone https://github.com/Angell6991/.wallpaper.git
 git clone https://github.com/Angell6991/dmenu.git
 git clone https://github.com/Angell6991/kitty.git
-git clone https://github.com/Angell6991/ranger.git
+git clone https://github.com/Angell6991/yazi.git
 git clone https://github.com/Angell6991/zathura.git
 git clone https://github.com/Angell6991/nvim.git
 git clone https://github.com/Angell6991/fastfetch.git
@@ -89,11 +89,6 @@ git clone https://github.com/zdharma-continuum/fast-syntax-highlighting.git ${ZS
 curl -sS https://starship.rs/install.sh | sh
 
 
-###-----------dependencias_de_Ranger--------------###
-git clone https://github.com/alexanderjeurissen/ranger_devicons ~/.config/ranger/plugins/ranger_devicons
-echo "default_linemode devicons" >> $HOME/.config/ranger/rc.conf
-
-
 ###-------------packer_para_nvim------------------###
 git clone --depth 1 https://github.com/wbthomason/packer.nvim\
  ~/.local/share/nvim/site/pack/packer/start/packer.nvim
@@ -108,7 +103,7 @@ mkdir   /home/$var_user/Imágenes
 mkdir   /home/$var_user/Imágenes/capturas
 
 mv  .wallpaper /home/$var_user/Imágenes
-mv  dmenu kitty fastfetch ranger btop zathura hypr eww nvim mako /home/$var_user/.config
+mv  dmenu kitty fastfetch yazi btop zathura hypr eww nvim mako /home/$var_user/.config
 mv  lightdm /etc/
 
 
