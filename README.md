@@ -22,12 +22,20 @@ cd Dotfiles_Angell
 ```
 Give execution permissions to the script:
 ```sh
-chmod u+x install.sh                                        
+chmod u+x install_01.sh                                        
+```
+```sh
+chmod u+x install_02.sh                                        
 ```
 Run as superuser:
 ```sh
-sudo ./install
+sudo ./install_01.sh
 ```
+Run:
+```sh
+sudo ./install_02.sh
+```
+
 >[!NOTE] 
 >This repository is still under construction, so the installation 
 >script may present problems.
