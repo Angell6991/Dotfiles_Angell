@@ -33,7 +33,7 @@ sudo ./install_01.sh
 ```
 Run:
 ```sh
-sudo ./install_02.sh
+./install_02.sh
 ```
 
 >[!NOTE] 

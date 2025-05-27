@@ -14,7 +14,7 @@ echo    "Iniciando la instalando de programas"
 
 echo    "Programas esenciales:"
 
-pacman -S  zathura zathura-pdf-mupdf zathura-ps zathura-djvu zathura-cb dmenu neovim  kitty  yazi nwg-look font-manager python python-pip eog xournalpp unzip unrar zsh imagemagick  exa btop  bat git-delta dosfstools pavucontrol gnome-calendar gnome-clocks hyprland hyprlock hypridle hyprpaper grim slurp lightdm mpv wf-recorder cmus timeshift xclip wl-clipboard alsa-utils brightnessctl tlp mako libnotify pamixer ffmpeg ly
+pacman -S  zathura zathura-pdf-mupdf zathura-ps zathura-djvu zathura-cb dmenu neovim  kitty  yazi nwg-look font-manager python python-pip eog xournalpp unzip unrar zsh imagemagick  exa btop  bat git-delta dosfstools pavucontrol gnome-calendar gnome-clocks hyprland hyprlock hypridle hyprpaper grim slurp lightdm mpv wf-recorder cmus timeshift xclip wl-clipboard alsa-utils brightnessctl tlp mako libnotify pamixer ffmpeg ly fastfetch firefox telegram-desktop gimp xdg-desktop-portal-hyprland 
 
 systemctl enable ly.service
 systemctl status ly.service
@@ -30,8 +30,8 @@ echo    "library_python: "
 pacman -S tk python-matplotlib python-numpy python-distutils-extra python-sympy python-pandas python-pillow python-scikit-learn python-scipy python-pyfiglet
 
 ###------confuguracion_para_install_con_pip-------###
-mv  pip.conf /home/$var_user/.config/pip/
-pip install pylatex pyinstaller einsteinpy plotly kaleido customtkinter 
+# mv  pip.conf /home/$var_user/.config/pip/
+# pip install pylatex pyinstaller einsteinpy plotly kaleido customtkinter 
 
 
 ###------------Config_hora_bogota-----------------###

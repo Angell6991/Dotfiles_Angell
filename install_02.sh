@@ -7,6 +7,7 @@
 var_user=$(whoami)
 
 ###------confuguracion_para_install_con_pip-------###
+mkdir   /home/$var_user/.config/pip/
 mv  pip.conf /home/$var_user/.config/pip/
 pip install pylatex pyinstaller einsteinpy plotly kaleido customtkinter 
 
@@ -42,7 +43,8 @@ curl -sS https://starship.rs/install.sh | sh
 
 
 ###-------------packer_para_nvim------------------###
-git clone --depth 1 https://github.com/wbthomason/packer.nvim\ ~/.local/share/nvim/site/pack/packer/start/packer.nvim
+git clone --depth 1 https://github.com/wbthomason/packer.nvim\
+    ~/.local/share/nvim/site/pack/packer/start/packer.nvim
 
 
 ###--Moviendo_repositorios_y_creando_diretorios---###
@@ -68,6 +70,12 @@ mv  .zsh_history .zshrc .gitconfig /home/$var_user/
 mv  starship.toml /home/$var_user/.config
 # mv  .xprofile /home/$var_user/
 
+
+
+###------------Eliminar_buttos_Gnome--------------###
+gsettings set org.gnome.desktop.wm.preferences button-layout ':'
+
+
 ##########################################
 ### configuracion xorg,                ### 
 ### con el comando "startx"            ###
@@ -76,7 +84,7 @@ mv  starship.toml /home/$var_user/.config
 # mv  .xinitrc /home/$var_user/
 
 ###----------hacer_que_root_use_zsh---------------###
-sudo chsh -s /bin/zsh root
+# chsh -s /bin/zsh root
 
 echo "Operación completada" 
 
