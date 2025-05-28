@@ -58,6 +58,17 @@ mkdir   /home/$var_user/Imágenes/capturas
 mv  .wallpaper /home/$var_user/Imágenes
 mv  dmenu kitty fastfetch yazi btop zathura hypr eww nvim mako /home/$var_user/.config
 
+
+###-----Copiando_Repositorios_eww_install---------###
+echo    "Instalando EWW:"
+git clone https://github.com/elkowar/eww
+mv eww .eww
+mv .eww /home/$var_user/
+# cargo build --release --no-default-features --features=wayland
+# cargo +nightly build --release --no-default-features --features=wayland --manifest-path ~/.eww/Cargo.toml
+cargo +stable build --release --no-default-features --features=wayland --manifest-path /home/$var_user/.eww/Cargo.toml
+
+
 #####################################################
 ###---------------Files_config--------------------###
 #####################################################

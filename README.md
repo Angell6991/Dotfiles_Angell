@@ -47,14 +47,6 @@ Run:
 
 [Install yay](https://itsfoss.com/install-yay-arch-linux/)
 
-Install FreeTube:
-```sh
-yay -S freetube
-```
-Install Zen-browser:
-```sh
-yay -S zen-browser-bin
-```
 
 ## Install LaTex
 ```sh
@@ -63,10 +55,6 @@ sudo pacman -S texlive
 
 ## Install EWW
 [Install Elkowars Wacky Widgets](https://elkowar.github.io/eww/)
-
-
-## Install Cursor and GTK Themes
-[Install themes GTK](https://github.com/Angell6991/Dotfiles_Angell/tree/master/Themes)
 
 
 ## Install retroarch
