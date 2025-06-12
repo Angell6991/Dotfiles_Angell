@@ -80,6 +80,7 @@ pacman -Ss libretro
 |<kbd>SUPER</kbd> + <kbd>BackSpace</kbd>| killactive
 |<kbd>SUPER</kbd> + <kbd>ctrl</kbd> + <kbd>q</kbd>| close seccion, exit
 |<kbd>SUPER</kbd> + <kbd>ctrl</kbd> + <kbd>l</kbd>| open power menu
+|<kbd>SUPER</kbd> + <kbd>ctrl</kbd> + <kbd>F1</kbd>| suspend system
 
 
 ## Switching between window types
