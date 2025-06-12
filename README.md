@@ -81,6 +81,7 @@ pacman -Ss libretro
 |<kbd>SUPER</kbd> + <kbd>ctrl</kbd> + <kbd>q</kbd>| close seccion, exit
 |<kbd>SUPER</kbd> + <kbd>ctrl</kbd> + <kbd>l</kbd>| open power menu
 |<kbd>SUPER</kbd> + <kbd>ctrl</kbd> + <kbd>F1</kbd>| suspend system
+|<kbd>SUPER</kbd> + <kbd>ctrl</kbd> + <kbd>F9</kbd>| enable and disable lock
 
 
 ## Switching between window types
