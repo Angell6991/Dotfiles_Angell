@@ -14,7 +14,7 @@ echo    "Iniciando la instalando de programas"
 
 echo    "Programas esenciales:"
 
-pacman -S  zathura zathura-pdf-mupdf zathura-ps zathura-djvu zathura-cb dmenu neovim  kitty  yazi nwg-look font-manager python python-pip eog xournalpp unzip unrar zsh imagemagick  exa btop  bat git-delta dosfstools pavucontrol gnome-calendar gnome-clocks hyprland hyprlock hypridle hyprpaper grim slurp mpv wf-recorder cmus timeshift xclip wl-clipboard alsa-utils brightnessctl mako libnotify pamixer ffmpeg ly fastfetch firefox telegram-desktop gimp xdg-desktop-portal-hyprland gtk-layer-shell drawio-desktop
+pacman -S  zathura zathura-pdf-mupdf zathura-ps zathura-djvu zathura-cb dmenu neovim  kitty  yazi nwg-look font-manager python python-pip eog xournalpp unzip unrar zsh imagemagick  exa btop  bat git-delta dosfstools pavucontrol gnome-calendar gnome-clocks hyprland hyprlock hypridle hyprpaper grim slurp mpv wf-recorder cmus timeshift xclip wl-clipboard alsa-utils brightnessctl mako libnotify pamixer ffmpeg ly fastfetch firefox telegram-desktop gimp xdg-desktop-portal-hyprland gtk-layer-shell drawio-desktop man-db
 
 systemctl enable ly.service
 systemctl status ly.service
