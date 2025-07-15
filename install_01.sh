@@ -14,7 +14,7 @@ echo    "Iniciando la instalando de programas"
 
 echo    "Programas esenciales:"
 
-pacman -S  zathura zathura-pdf-mupdf zathura-ps zathura-djvu zathura-cb dmenu neovim  kitty  yazi nwg-look font-manager python python-pip eog xournalpp unzip unrar zsh imagemagick  exa btop  bat git-delta dosfstools pavucontrol gnome-calendar gnome-clocks hyprland hyprlock hypridle hyprpaper grim slurp mpv wf-recorder cmus timeshift xclip wl-clipboard alsa-utils brightnessctl mako libnotify pamixer ffmpeg ly fastfetch firefox telegram-desktop gimp xdg-desktop-portal-hyprland gtk-layer-shell drawio-desktop man-db 
+pacman -S  zathura zathura-pdf-mupdf zathura-ps zathura-djvu zathura-cb dmenu neovim  kitty  yazi nwg-look font-manager python python-pip eog xournalpp unzip unrar zsh imagemagick  exa btop  bat git-delta dosfstools pavucontrol gnome-calendar gnome-clocks hyprland hyprlock hypridle hyprpaper grim slurp mpv wf-recorder cmus timeshift xclip wl-clipboard alsa-utils brightnessctl mako libnotify pamixer ffmpeg ly fastfetch firefox telegram-desktop gimp xdg-desktop-portal-hyprland gtk-layer-shell drawio-desktop man-db jq 
 
 pacman -S tgpt
 
@@ -82,7 +82,7 @@ unzip Fonts/digital-dismay.zip -d /usr/share/fonts/clock_font/
 unzip Fonts/Wh40k.zip
 unzip Fonts/warhammer40k.zip
 mv  Wh40k /usr/share/fonts
-mv  warhammer40k.zip /usr/share/fonts
+mv  warhammer40k /usr/share/fonts
 
 ###---------------Install_Themes------------------###
 tar -xf Themes/oreo-white-cursors.tar.gz
