@@ -53,11 +53,14 @@ alias ls="exa --icons --group-directories-first"
 alias tree="exa --icons --tree --level=2 --group-directories-first"
 alias cat="bat" 
 
+alias QR_scan="cat /tmp/scan_screenshot.txt"
 
 ###-------Definiendo_dierctorios_para_PATH---------###
 # informacion bateria istalar: sudo pacman -S tlp
 # informacion bateria: $ sudo tlp-stat -b
 export PATH=$PATH:/home/angell/.local/bin
 export PATH=$PATH:/home/angell/.eww/target/release
+
+rm -rf ly-session.log
 
 
