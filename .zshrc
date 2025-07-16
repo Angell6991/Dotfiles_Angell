@@ -54,6 +54,7 @@ alias tree="exa --icons --tree --level=2 --group-directories-first"
 alias cat="bat" 
 
 alias QR_scan="cat /tmp/scan_screenshot.txt"
+alias GPT="touch /tmp/GPT.txt & tgpt --provider pollinations -i --log /tmp/GPT.txt"
 
 ###-------Definiendo_dierctorios_para_PATH---------###
 # informacion bateria istalar: sudo pacman -S tlp
