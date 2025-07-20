@@ -29,7 +29,7 @@ systemctl status ly.service
 
 ###--------Instalando_librerias_python------------###
 echo    "library_python: "
-pacman -S tk python-matplotlib python-numpy python-distutils-extra python-sympy python-pandas python-pillow python-scikit-learn python-scipy python-pyfiglet
+pacman -S tk python-matplotlib python-numpy python-distutils-extra python-sympy python-pandas python-pillow python-scikit-learn python-scipy python-pyfiglet python-tabulate
 
 ###------confuguracion_para_install_con_pip-------###
 # mv  pip.conf /home/$var_user/.config/pip/
