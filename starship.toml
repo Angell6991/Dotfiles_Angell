@@ -49,7 +49,7 @@ style = "yellow"
 
 [python]
 # symbol = " "
-format = "[ $virtualenv]($style) "
+format = "[  ($virtualenv)]($style)"
 style = "#00CCDE"
 # style = "#61ffaf"
 

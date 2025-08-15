@@ -62,6 +62,6 @@ alias GPT="touch /tmp/GPT.md & tgpt --provider pollinations -i --log /tmp/GPT.md
 export PATH=$PATH:/home/angell/.local/bin
 export PATH=$PATH:/home/angell/.eww/target/release
 
-rm -rf ly-session.log
+rm -rf ly-session.log Downloads Descargas
 
 
