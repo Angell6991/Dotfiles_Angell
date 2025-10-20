@@ -22,7 +22,7 @@ echo    "Instalación de programas completada"
 ###-----------Copiando_Repositorios---------------###
 echo    "Copiando Repositorios: "
 git clone https://github.com/Angell6991/.wallpaper.git
-git clone https://github.com/Angell6991/dmenu.git
+git clone https://github.com/Angell6991/fuzzel.git
 git clone https://github.com/Angell6991/kitty.git
 git clone https://github.com/Angell6991/yazi.git
 git clone https://github.com/Angell6991/zathura.git
@@ -56,7 +56,7 @@ mkdir   /home/$var_user/Imágenes
 mkdir   /home/$var_user/Imágenes/capturas
 
 mv  .wallpaper /home/$var_user/Imágenes
-mv  dmenu kitty fastfetch yazi btop zathura hypr eww nvim mako /home/$var_user/.config
+mv  fuzzel kitty fastfetch yazi btop zathura hypr eww nvim mako /home/$var_user/.config
 
 
 ###-----Copiando_Repositorios_eww_install---------###
