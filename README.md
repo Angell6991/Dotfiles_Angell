@@ -69,6 +69,12 @@ Check the emulator cores:
 pacman -Ss libretro
 ```
 
+## Install lutris
+```sh
+sudo pacman -S lutris wine winetricks lib32-giflib lib32-mpg123 lib32-openal lib32-vulkan-icd-loader lib32-vulkan-radeon lib32-nvidia-utils vkd3d lib32-vkd3d vulkan-intel lib32-vulkan-intel
+```
+
+
 #   Keysmap
 
 
