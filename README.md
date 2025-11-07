@@ -103,7 +103,7 @@ pacman -Ss libretro
 |<kbd>SUPER</kbd> + <kbd>ctrl</kbd> + <kbd>Print</kbd>| capture a section of the screen
 |<kbd>SUPER</kbd> + <kbd>F3</kbd>| start recording the screen
 |<kbd>SUPER</kbd> + <kbd>F4</kbd>| stop screen recording
-|<kbd>SUPER</kbd> + <kbd>F8</kbd>| LaTeX_OCR init
+|<kbd>SUPER</kbd> + <kbd>F8</kbd>| Search color Hexadecimal
 |<kbd>SUPER</kbd> + <kbd>F7</kbd>| zbarimg screen QR
 
 ## Window behavior in workspace

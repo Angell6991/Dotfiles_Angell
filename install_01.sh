@@ -86,8 +86,10 @@ mv  warhammer40k /usr/share/fonts
 
 ###---------------Install_Themes------------------###
 tar -xf Themes/oreo-white-cursors.tar.gz
+tar -xf Themes/oreo-pink-cursors.tar.gz
 tar -xf Themes/Graphite-Dark.tar.xz
 
+mv  oreo_pink_cursors /usr/share/icons
 mv  oreo_white_cursors /usr/share/icons
 mv  Graphite-blue-Dark Graphite-Dark Graphite-green-Dark Graphite-orange-Dark Graphite-pink-Dark Graphite-purple-Dark Graphite-red-Dark Graphite-teal-Dark Graphite-yellow-Dark /usr/share/themes
 
