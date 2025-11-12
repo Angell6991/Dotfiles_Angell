@@ -45,8 +45,6 @@ alias icat="kitty +icat"
 alias suspend="systemctl suspend"
 alias py="python"
 alias buscar="sudo find / -name"
-# alias neofetch="neofetch --backend kitty --source /home/angell/Imágenes/.wallpaper/pngwing_001.png"
-# alias neofetch="neofetch --backend kitty --source /home/angell/Imágenes/.wallpaper/pngegg.png"
 alias fastfetch="fastfetch --logo  ~/Imágenes/.wallpaper/fas.png"
 
 alias ls="exa --icons --group-directories-first"
@@ -55,12 +53,16 @@ alias cat="bat"
 
 alias QR_scan="cat /tmp/scan_screenshot.txt"
 alias GPT="touch /tmp/GPT.md & tgpt --provider sky -i --log /tmp/GPT.md"
-# alias GPT="touch /tmp/GPT.md & tgpt --provider pollinations -i --log /tmp/GPT.md"
+
+alias en="trans -b -I -t en"
+alias es="trans -b -I -t es"
+alias mirror="sudo reflector --latest 20 --protocol https --sort rate --save /etc/pacman.d/mirrorlist"
 
 # yt-dlp --no-playlist -t mp3 --add-metadata --embed-thumbnail --output "%(artist)s - %(title)s.%(ext)s"  "URL"
 yt-dlp-d() {
     yt-dlp --no-playlist -t mp3 --add-metadata --embed-thumbnail --output "%(artist)s - %(title)s.%(ext)s" "$1"
 }
+
 
 ###-------Definiendo_dierctorios_para_PATH---------###
 # informacion bateria istalar: sudo pacman -S tlp
