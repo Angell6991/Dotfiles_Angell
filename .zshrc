@@ -38,6 +38,17 @@ plugins=(
 source $ZSH/oh-my-zsh.sh        #Iniciar_oh_my_zsh
 eval "$(starship init zsh)"     #Iniciar_Starship
 
+###---------------Iniciar_Starship-----------------###
+# if [[ "$TERM_PROGRAM" == "ghostty" ]]; then
+#   # Estamos en Ghostty
+#   export STARSHIP_CONFIG="$HOME/.config/starship-ghostty.toml"
+# else
+#   # Otra terminal o valor por defecto
+#   export STARSHIP_CONFIG="$HOME/.config/starship.toml"
+# fi
+
+# eval "$(starship init zsh)"
+
 
 ###-----------------alias_for_zsh------------------###
 alias nv="nvim"
