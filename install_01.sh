@@ -14,13 +14,23 @@ echo    "Iniciando la instalando de programas"
 
 echo    "Programas esenciales:"
 
-pacman -S  zathura zathura-pdf-mupdf zathura-ps zathura-djvu zathura-cb neovim  kitty  yazi font-manager python python-pip eog xournalpp unzip unrar zsh imagemagick  exa btop  bat git-delta dosfstools pavucontrol gnome-calendar gnome-clocks hyprland hyprlock hypridle hyprpaper swww grim slurp mpv wf-recorder timeshift xclip wl-clipboard alsa-utils brightnessctl mako libnotify pamixer ffmpeg ly fastfetch firefox telegram-desktop gimp xdg-desktop-portal-hyprland gtk-layer-shell drawio-desktop man-db jq zbar pastel translate-shell reflector inkscape fontforge amberol yt-dlp fuzzel hyprpicker
+pacman -S  zathura zathura-pdf-mupdf zathura-ps zathura-djvu zathura-cb neovim  kitty  yazi font-manager python python-pip eog xournalpp unzip unrar zsh imagemagick  exa btop  bat git-delta dosfstools pavucontrol gnome-calendar gnome-clocks hyprland hyprlock hypridle hyprpaper swww grim slurp mpv wf-recorder timeshift xclip wl-clipboard alsa-utils brightnessctl mako libnotify pamixer ffmpeg ly fastfetch firefox telegram-desktop gimp xdg-desktop-portal-hyprland gtk-layer-shell drawio-desktop man-db jq zbar pastel translate-shell reflector inkscape fontforge amberol yt-dlp fuzzel hyprpicker upower
 
-pacman -S tgpt
+pacman -S tgpt ufw
 
+###-------------config_corta_fuegos---------------###
+ufw limit 22/tcp
+ufw allow 80/tcp
+ufw allow 443/tcp
+ufw default deny incoming
+ufw default allow outgoing
+ufw enable
+
+###------------config_login_interface-------------###
 systemctl enable ly.service
 systemctl status ly.service
 
+###-----------------------------------------------###
 # config_tlp_gestor_de_energia
 # sudo pacman -S tlp
 # sudo systemctl enable tlp 
