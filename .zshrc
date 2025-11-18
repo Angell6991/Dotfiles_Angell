@@ -36,18 +36,18 @@ plugins=(
         fast-syntax-highlighting
         )
 source $ZSH/oh-my-zsh.sh        #Iniciar_oh_my_zsh
-eval "$(starship init zsh)"     #Iniciar_Starship
+# eval "$(starship init zsh)"     #Iniciar_Starship
 
 ###---------------Iniciar_Starship-----------------###
-# if [[ "$TERM_PROGRAM" == "ghostty" ]]; then
-#   # Estamos en Ghostty
-#   export STARSHIP_CONFIG="$HOME/.config/starship-ghostty.toml"
-# else
-#   # Otra terminal o valor por defecto
-#   export STARSHIP_CONFIG="$HOME/.config/starship.toml"
-# fi
+if [[ "$TERM_PROGRAM" == "ghostty" ]]; then
+  # Estamos en Ghostty
+  export STARSHIP_CONFIG="$HOME/.config/starship-ghostty.toml"
+else
+  # Otra terminal o valor por defecto
+  export STARSHIP_CONFIG="$HOME/.config/starship.toml"
+fi
 
-# eval "$(starship init zsh)"
+eval "$(starship init zsh)"
 
 
 ###-----------------alias_for_zsh------------------###
@@ -81,6 +81,6 @@ yt-dlp-d() {
 export PATH=$PATH:/home/angell/.local/bin
 export PATH=$PATH:/home/angell/.eww/target/release
 
-rm -rf ly-session.log Downloads Descargas
+rm -rf ly-session.log Downloads Descargas .zcompdump-arch-5.9 .zcompdump-arch-5.9.zwc
 
 
