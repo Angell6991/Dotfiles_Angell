@@ -81,6 +81,6 @@ yt-dlp-d() {
 export PATH=$PATH:/home/angell/.local/bin
 export PATH=$PATH:/home/angell/.eww/target/release
 
-rm -rf ly-session.log Downloads Descargas .zcompdump-arch-5.9 .zcompdump-arch-5.9.zwc
+rm -rf ~/ly-session.log ~/Downloads ~/Descargas ~/.zcompdump-arch-5.9 ~/.zcompdump-arch-5.9.zwc
 
 
