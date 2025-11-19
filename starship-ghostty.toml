@@ -88,13 +88,13 @@ tag_symbol = '🔖 '
 [git_status]
 style = "bg:teal"
 format = "[[($conflicted$untracked$modified$staged$renamed$deleted)](fg:crust bg:teal)( $ahead_behind  )](fg:crust bg:teal)"
-conflicted = "*"
-untracked = "  "
+conflicted = " 󱚡 "
+untracked = "  "
 modified = "  "
-staged = "  "
-renamed = " 󰏪 "
+staged = "  "
+renamed = "  "
 deleted = " 󱂥 "
-stashed = "≡"
+stashed = " 󰈉 "
 
 [nodejs]
 symbol = ""
