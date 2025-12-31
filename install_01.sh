@@ -25,6 +25,8 @@ ufw allow 443/tcp
 ufw default deny incoming
 ufw default allow outgoing
 ufw enable
+# ufw allow from 192.168.0.0/24 to any port 53317 proto tcp
+# ufw allow from 192.168.0.0/24 to any port 53317 proto udp
 
 ###------------config_login_interface-------------###
 systemctl enable ly.service
