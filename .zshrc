@@ -68,6 +68,7 @@ alias GPT="touch /tmp/GPT.md & tgpt --provider sky -i --log /tmp/GPT.md"
 alias en="trans -b -I -t en"
 alias es="trans -b -I -t es"
 alias mirror="sudo reflector --latest 20 --protocol https --sort rate --save /etc/pacman.d/mirrorlist"
+# du --max-depth=1 -h  # ver espacio que ocupa en el disco 
 
 # yt-dlp --no-playlist -t mp3 --add-metadata --embed-thumbnail --output "%(artist)s - %(title)s.%(ext)s"  "URL"
 yt-dlp-d() {
@@ -82,5 +83,4 @@ export PATH=$PATH:/home/angell/.local/bin
 export PATH=$PATH:/home/angell/.eww/target/release
 
 rm -rf ~/ly-session.log ~/Downloads ~/Descargas ~/.zcompdump-arch-5.9 ~/.zcompdump-arch-5.9.zwc
-
 
