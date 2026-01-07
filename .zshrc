@@ -56,7 +56,7 @@ alias icat="kitty +icat"
 alias suspend="systemctl suspend"
 alias py="python"
 alias buscar="sudo find / -name"
-alias fastfetch="fastfetch --logo  ~/Imágenes/.wallpaper/fas.png"
+alias fastfetch="fastfetch --logo  ~/Images/.wallpaper/fas.png"
 
 alias ls="exa --icons --group-directories-first"
 alias tree="exa --icons --tree --level=2 --group-directories-first"
