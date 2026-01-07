@@ -53,10 +53,10 @@ mkdir   /home/$var_user/Projects
 mkdir   /home/$var_user/Documents
 mkdir   /home/$var_user/USB
 mkdir   /home/$var_user/Documents/git_hub
-mkdir   /home/$var_user/Imágenes
-mkdir   /home/$var_user/Imágenes/capturas
+mkdir   /home/$var_user/Images
+mkdir   /home/$var_user/Images/capturas
 
-mv  .wallpaper /home/$var_user/Imágenes
+mv  .wallpaper /home/$var_user/Images
 mv  fuzzel kitty fastfetch yazi btop zathura hypr eww nvim mako /home/$var_user/.config
 
 
