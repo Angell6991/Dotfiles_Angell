@@ -114,7 +114,6 @@ mv  pacman.conf /etc/
 
 ###----------configuracion_touchpad---------------###
 # pacman -S xf86-input-libinput
-mv  30-touchpad.conf /etc/X11/xorg.conf.d
 
 
 echo "Operación completada" 

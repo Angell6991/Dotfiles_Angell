@@ -18,7 +18,6 @@ echo    "Instalación de programas completada"
 ###------------Repositiry_GitHub------------------###
 #####################################################
 
-
 ###-----------Copiando_Repositorios---------------###
 echo    "Copiando Repositorios: "
 git clone https://github.com/Angell6991/.wallpaper.git
@@ -33,14 +32,6 @@ git clone https://github.com/Angell6991/btop.git
 git clone https://github.com/Angell6991/hypr.git
 git clone https://github.com/Angell6991/eww.git
 git clone https://github.com/Angell6991/mako.git
-
-
-###----------install_oh-my-zsh_y_plugins----------###
-sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
-git clone https://github.com/zsh-users/zsh-autosuggestions.git $ZSH_CUSTOM/plugins/zsh-autosuggestions
-git clone https://github.com/zdharma-continuum/fast-syntax-highlighting.git ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/plugins/fast-syntax-highlighting
-curl -sS https://starship.rs/install.sh | sh
-
 
 ###-------------packer_para_nvim------------------###
 git clone --depth 1 https://github.com/wbthomason/packer.nvim\
@@ -70,6 +61,13 @@ mv .eww /home/$var_user/
 cargo +stable build --release --no-default-features --features=wayland --manifest-path /home/$var_user/.eww/Cargo.toml
 
 
+###----------install_oh-my-zsh_y_plugins----------###
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+git clone https://github.com/zsh-users/zsh-autosuggestions.git $ZSH_CUSTOM/plugins/zsh-autosuggestions
+git clone https://github.com/zdharma-continuum/fast-syntax-highlighting.git ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/plugins/fast-syntax-highlighting
+curl -sS https://starship.rs/install.sh | sh
+
+
 #####################################################
 ###---------------Files_config--------------------###
 #####################################################
@@ -86,14 +84,6 @@ mv  starship.toml /home/$var_user/.config
 
 ###------------Eliminar_buttos_Gnome--------------###
 gsettings set org.gnome.desktop.wm.preferences button-layout ':'
-
-
-##########################################
-### configuracion xorg,                ### 
-### con el comando "startx"            ###
-### se iniacia el sistema de ventanas  ### 
-##########################################
-# mv  .xinitrc /home/$var_user/
 
 ###----------hacer_que_root_use_zsh---------------###
 # chsh -s /bin/zsh root
