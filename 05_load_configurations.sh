@@ -8,7 +8,7 @@ var_user=$(whoami)
 
 ###------confuguracion_para_install_con_pip-------###
 mkdir   /home/$var_user/.config/pip/
-mv  pip.conf /home/$var_user/.config/pip/
+mv  files/pip.conf /home/$var_user/.config/pip/
 pip install pylatex pyinstaller einsteinpy plotly kaleido customtkinter 
 
 
@@ -76,11 +76,8 @@ curl -sS https://starship.rs/install.sh | sh
 echo    "Moviendo archivos de configuración: "
 
 ###--------confuguracion_shell_terminal-----------###
-mv  .zsh_history .zshrc .gitconfig /home/$var_user/
-mv  starship.toml /home/$var_user/.config
-# mv  .xprofile /home/$var_user/
-
-
+mv  files/.zsh_history files/.zshrc files/.gitconfig /home/$var_user/
+mv  files/starship.toml /home/$var_user/.config
 
 ###------------Eliminar_buttos_Gnome--------------###
 gsettings set org.gnome.desktop.wm.preferences button-layout ':'

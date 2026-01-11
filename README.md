@@ -6,7 +6,7 @@
 
 
 <p align="center">
-  <img src="suport_readme/eww.gif">
+  <img src="files/suport_readme/eww.gif">
 </p>
 
 
