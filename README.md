@@ -85,6 +85,8 @@ sudo ./install_post.sh
 |<kbd>SUPER</kbd> + <kbd>F5</kbd>| -10% screen brightness
 |<kbd>SUPER</kbd> + <kbd>F12</kbd>| +5% volume
 |<kbd>SUPER</kbd> + <kbd>F11</kbd>| -5% volume
+|<kbd>SUPER</kbd> + <kbd>F10</kbd>| muted and unmuted system
+|<kbd>SUPER</kbd> + <kbd>ctrl</kbd> + <kbd>F10</kbd>| paused and unpaused music system
 |<kbd>SUPER</kbd> + <kbd>Print</kbd>| screenshot
 |<kbd>SUPER</kbd> + <kbd>ctrl</kbd> + <kbd>Print</kbd>| capture a section of the screen
 |<kbd>SUPER</kbd> + <kbd>F3</kbd>| start recording the screen
