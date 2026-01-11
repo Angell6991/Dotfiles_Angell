@@ -1,5 +1,6 @@
 <h2 align="center"> Hyprland + EWW </h2>
 
+
 - [Install](#install)
 - [Post install](#post-install)
 - [Keysmap](#keysmap)
@@ -16,24 +17,20 @@ Clone the repository:
 ```sh
 git clone https://github.com/Angell6991/Dotfiles_Angell.git
 ```
+
 Enter the directory:
 ```sh
 cd Dotfiles_Angell
 ```
+
 Give execution permissions to the script:
 ```sh
-chmod u+x install_01.sh                                        
+chmod u+x install.sh                                        
 ```
-```sh
-chmod u+x install_02.sh                                        
-```
-Run as superuser:
-```sh
-sudo ./install_01.sh
-```
+
 Run:
 ```sh
-./install_02.sh
+./install.sh
 ```
 
 >[!NOTE] 
@@ -52,10 +49,6 @@ Run:
 ```sh
 sudo pacman -S texlive
 ```
-
-## Install EWW
-[Install Elkowars Wacky Widgets](https://elkowar.github.io/eww/)
-
 
 ## Install retroarch
 
