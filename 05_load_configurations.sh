@@ -33,6 +33,11 @@ git clone https://github.com/Angell6991/hypr.git
 git clone https://github.com/Angell6991/eww.git
 git clone https://github.com/Angell6991/mako.git
 
+git clone https://github.com/Angell6991/niri.git
+git clone https://github.com/Angell6991/quickshell.git
+git clone https://github.com/Angell6991/ghostty.git
+
+
 ###-------------packer_para_nvim------------------###
 git clone --depth 1 https://github.com/wbthomason/packer.nvim\
     ~/.local/share/nvim/site/pack/packer/start/packer.nvim
@@ -48,7 +53,7 @@ mkdir   /home/$var_user/Images
 mkdir   /home/$var_user/Images/capturas
 
 mv  .wallpaper /home/$var_user/Images
-mv  fuzzel kitty fastfetch yazi btop zathura hypr eww nvim mako /home/$var_user/.config
+mv  fuzzel kitty fastfetch yazi btop zathura hypr eww nvim mako quickshell niri ghostty /home/$var_user/.config
 
 
 ###-----Copiando_Repositorios_eww_install---------###
@@ -78,6 +83,7 @@ echo    "Moviendo archivos de configuración: "
 ###--------confuguracion_shell_terminal-----------###
 mv  files/.zsh_history files/.zshrc files/.gitconfig /home/$var_user/
 mv  files/starship.toml /home/$var_user/.config
+mv  files/starship-ghostty.toml /home/$var_user/.config
 
 ###------------Eliminar_buttos_Gnome--------------###
 gsettings set org.gnome.desktop.wm.preferences button-layout ':'

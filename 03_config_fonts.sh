@@ -25,11 +25,18 @@ unzip files/Fonts/warhammer40k.zip
 mv  Wh40k /usr/share/fonts
 mv  warhammer40k /usr/share/fonts
 
+unzip files/Fonts/frank_font.zip
+mv  frank-font.ttf /usr/share/fonts
+
+
 ###---------------Install_Themes------------------###
+unzip files/themes/Future-dark-cursors.zip
+
 tar -xf files/Themes/oreo-white-cursors.tar.gz
 tar -xf files/Themes/oreo-pink-cursors.tar.gz
 tar -xf files/Themes/Graphite-Dark.tar.xz
 
+mv  Future-dark-cursors /usr/share/icons
 mv  oreo_pink_cursors /usr/share/icons
 mv  oreo_white_cursors /usr/share/icons
 mv  Graphite-blue-Dark Graphite-Dark Graphite-green-Dark Graphite-orange-Dark Graphite-pink-Dark Graphite-purple-Dark Graphite-red-Dark Graphite-teal-Dark Graphite-yellow-Dark /usr/share/themes

@@ -9,3 +9,5 @@ pacman -S --noconfirm zathura zathura-pdf-mupdf zathura-ps zathura-djvu zathura-
 pacman -S --noconfirm tgpt ufw udiskie mousai
 
 pacman -S --noconfirm localsend impala
+
+pacman -S --noconfirm niri quickshell ghostty
