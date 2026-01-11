@@ -13,6 +13,10 @@
 
 #   Install 
 
+>[!NOTE] 
+>This repository is still under construction, so the installation 
+>script may present problems.
+
 Clone the repository:
 ```sh
 git clone https://github.com/Angell6991/Dotfiles_Angell.git
@@ -33,11 +37,6 @@ Run:
 ./install.sh
 ```
 
->[!NOTE] 
->This repository is still under construction, so the installation 
->script may present problems.
-
-
 #   Post install
 
 ## Install AUR repositorys
@@ -45,28 +44,16 @@ Run:
 [Install yay](https://itsfoss.com/install-yay-arch-linux/)
 
 
-## Install LaTex
+## Install LaTeX, retroarch and lutris
+
+This script will automate the personal installation of latex, retroarch and lutris
+
 ```sh
-sudo pacman -S texlive
+chmod u+x install_post.sh                                        
 ```
-
-## Install retroarch
-
-Install program:
 ```sh
-sudo pacman -S retroarch
+sudo ./install_post.sh                                        
 ```
-
-Check the emulator cores:
-```sh
-pacman -Ss libretro
-```
-
-## Install lutris
-```sh
-sudo pacman -S lutris wine winetricks lib32-giflib lib32-mpg123 lib32-openal lib32-vulkan-icd-loader lib32-vulkan-radeon lib32-nvidia-utils vkd3d lib32-vkd3d vulkan-intel lib32-vulkan-intel
-```
-
 
 #   Keysmap
 
