@@ -33,7 +33,7 @@ mv  frank-font.ttf /usr/share/fonts
 unzip files/themes/Future-dark-cursors.zip
 
 tar -xf files/Themes/oreo-white-cursors.tar.gz
-tar -xf files/Themes/oreo-pink-cursors.tar.gz
+tar -xf files/Themes/oreo_pink_cursors.tar.gz
 tar -xf files/Themes/Graphite-Dark.tar.xz
 
 mv  Future-dark-cursors /usr/share/icons
