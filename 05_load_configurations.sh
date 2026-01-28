@@ -6,6 +6,9 @@
 
 var_user=$(whoami)
 
+###-----------------------------------------------###
+mkdir   /home/$var_user/.config
+
 ###------confuguracion_para_install_con_pip-------###
 mkdir   /home/$var_user/.config/pip/
 mv  files/pip.conf /home/$var_user/.config/pip/
