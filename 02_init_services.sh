@@ -14,8 +14,8 @@ ufw allow from 192.168.0.0/24 to any port 53317 proto tcp
 ufw allow from 192.168.0.0/24 to any port 53317 proto udp
 
 ###------------config_login_interface-------------###
-systemctl enable ly.service
-systemctl status ly.service
+systemctl enable ly@tty1.service
+systemctl status ly@tty1.service
 
 ###-----------------------------------------------###
 # config_tlp_gestor_de_energia
