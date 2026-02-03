@@ -14,4 +14,4 @@ pacman -S --noconfirm tgpt ufw udiskie mousai
 
 pacman -S --noconfirm localsend impala
 
-pacman -S --noconfirm niri quickshell ghostty
+pacman -S --noconfirm niri ghostty
