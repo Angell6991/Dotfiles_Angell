@@ -35,9 +35,9 @@ git clone https://github.com/Angell6991/btop.git
 git clone https://github.com/Angell6991/hypr.git
 git clone https://github.com/Angell6991/eww.git
 git clone https://github.com/Angell6991/mako.git
+git clone https://github.com/Angell6991/xournalpp.git
 
 git clone https://github.com/Angell6991/niri.git
-git clone https://github.com/Angell6991/quickshell.git
 git clone https://github.com/Angell6991/ghostty.git
 
 
