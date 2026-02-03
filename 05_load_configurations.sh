@@ -56,7 +56,7 @@ mkdir   /home/$var_user/Images
 mkdir   /home/$var_user/Images/capturas
 
 mv  .wallpaper /home/$var_user/Images
-mv  fuzzel kitty fastfetch yazi btop zathura hypr eww nvim mako quickshell niri ghostty /home/$var_user/.config
+mv  fuzzel kitty fastfetch yazi btop zathura hypr eww nvim mako xournalpp niri ghostty /home/$var_user/.config
 
 
 ###-----Copiando_Repositorios_eww_install---------###
