@@ -28,14 +28,19 @@ mv  warhammer40k /usr/share/fonts
 unzip files/Fonts/frank_font.zip
 mv  frank-font.ttf /usr/share/fonts
 
+unzip files/Fonts/star_cratf_logo.zip
+mv  star_cratf_logo/starcraft-logos.ttf /usr/share/fonts
+
 
 ###---------------Install_Themes------------------###
 unzip files/themes/Future-dark-cursors.zip
+unzip files/themes/Moga-Neon-Water.zip
 
 tar -xf files/Themes/oreo-white-cursors.tar.gz
 tar -xf files/Themes/oreo_pink_cursors.tar.gz
 tar -xf files/Themes/Graphite-Dark.tar.xz
 
+mv  Moga-Neon-Water /usr/share/icons
 mv  Future-dark-cursors /usr/share/icons
 mv  oreo_pink_cursors /usr/share/icons
 mv  oreo_white_cursors /usr/share/icons
