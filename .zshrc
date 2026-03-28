@@ -56,8 +56,9 @@ alias icat="kitty +icat"
 alias suspend="systemctl suspend"
 alias py="python"
 alias buscar="sudo find / -name"
-alias fastfetch="fastfetch --logo none"
+# alias fastfetch="fastfetch --logo none"
 # alias fastfetch="fastfetch --logo  ~/Images/.wallpaper/akira.png"
+alias fastfetch="fastfetch --logo  ~/Images/.wallpaper/new_02.png"
 
 alias ls="exa --icons --group-directories-first"
 alias tree="exa --icons --tree --level=2 --group-directories-first"
@@ -94,3 +95,6 @@ export PATH=$PATH:/home/angell/.eww/target/release
 
 rm -rf ~/ly-session.log ~/Downloads ~/Descargas ~/.zcompdump-arch-5.9 ~/.zcompdump-arch-5.9.zwc
 
+
+# Created by `pipx` on 2026-02-04 01:39:20
+export PATH="$PATH:/home/angell/.local/bin"
