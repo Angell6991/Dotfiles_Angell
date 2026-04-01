@@ -78,6 +78,12 @@ alias mirror="sudo reflector --latest 20 --protocol https --sort rate --save /et
 # simple-mtpfs ~/USB                #   montar android
 # sudo mount -o loop dir/unidad.iso ~/USB   #   montar iso
 
+##--- activar depuracion usb con el modo desarrolador en android ---##
+
+# adb devices     #   Verificar que adb detecta el dispositivo
+# adb push archivo.ext /sdcard/Download/  #   Enviar archivo desde PC a teléfono
+
+
 # yt-dlp --no-playlist -t mp3 --add-metadata --embed-thumbnail --output "%(artist)s - %(title)s.%(ext)s"  "URL"
 yt-dlp-d() {
     yt-dlp --no-playlist -t mp3 --add-metadata --embed-thumbnail --output "%(artist)s - %(title)s.%(ext)s" "$1"
