@@ -98,10 +98,12 @@ sudo ./install_post.sh
 | Keys | Action |
 |:-|:-|
 |<kbd>SUPER</kbd> + <kbd>left, right, up, down</kbd>| Move the focus of the windows
+|<kbd>SUPER</kbd> + <kbd>SHIFT</kbd> + <kbd>left, right, up, down</kbd>| Movewindow
+|<kbd>SUPER</kbd> + <kbd>j, l, i, j</kbd>| Resize windows
 |<kbd>SUPER</kbd> + <kbd>tab</kbd>| Move the focus of the windows
 |<kbd>SUPER</kbd> + <kbd>ctrl</kbd> + <kbd>left, right, up, down</kbd>| Move focus between active workspaces
 |<kbd>SUPER</kbd> + <kbd>1, 2, 3, 4, 5, 6</kbd>| Moving between workspaces
-|<kbd>SUPER</kbd> + <kbd>SHIFT</kbd> + <kbd>1, 2, 3, 4, 5, 6</kbd>| Move window to a workspace
+|<kbd>SUPER</kbd> + <kbd>ctrl</kbd> + <kbd>1, 2, 3, 4, 5, 6</kbd>| Move window to a workspace
 |<kbd>ctrl</kbd> + <kbd>SHIFT</kbd> + <kbd>1, 2, 3, 4, 5, 6</kbd>| Move window to a workspace without changing focus
 
 
