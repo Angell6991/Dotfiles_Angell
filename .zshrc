@@ -39,13 +39,13 @@ source $ZSH/oh-my-zsh.sh        #Iniciar_oh_my_zsh
 # eval "$(starship init zsh)"     #Iniciar_Starship
 
 ###---------------Iniciar_Starship-----------------###
-if [[ "$TERM_PROGRAM" == "ghostty" ]]; then
-  # Estamos en Ghostty
-  export STARSHIP_CONFIG="$HOME/.config/starship-ghostty.toml"
-else
-  # Otra terminal o valor por defecto
-  export STARSHIP_CONFIG="$HOME/.config/starship.toml"
-fi
+# if [[ "$TERM_PROGRAM" == "ghostty" ]]; then
+#   # Estamos en Ghostty
+#   export STARSHIP_CONFIG="$HOME/.config/starship-ghostty.toml"
+# else
+#   # Otra terminal o valor por defecto
+#   export STARSHIP_CONFIG="$HOME/.config/starship.toml"
+# fi
 
 eval "$(starship init zsh)"
 
@@ -82,7 +82,7 @@ alias mirror="sudo reflector --latest 20 --protocol https --sort rate --save /et
 
 # adb devices     #   Verificar que adb detecta el dispositivo
 # adb push archivo.ext /sdcard/Download/  #   Enviar archivo desde PC a teléfono
-
+# sudo alsactl restore  # retore config ALSA audio 
 
 # yt-dlp --no-playlist -t mp3 --add-metadata --embed-thumbnail --output "%(artist)s - %(title)s.%(ext)s"  "URL"
 yt-dlp-d() {
