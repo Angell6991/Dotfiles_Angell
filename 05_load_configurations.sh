@@ -38,6 +38,7 @@ git clone https://github.com/Angell6991/xournalpp.git
 
 git clone https://github.com/Angell6991/hypr_profile.git
 git clone https://github.com/Angell6991/dunst.git
+git clone https://github.com/Angell6991/satty.git
 
 
 ###-------------packer_para_nvim------------------###
@@ -55,7 +56,7 @@ mkdir   /home/$var_user/Images
 mkdir   /home/$var_user/Images/capturas
 
 mv  .wallpaper /home/$var_user/Images
-mv  fuzzel kitty fastfetch yazi btop zathura hypr nvim mako dunst xournalpp hypr_profile  /home/$var_user/.config
+mv  fuzzel kitty fastfetch yazi btop zathura hypr nvim mako dunst satty xournalpp hypr_profile  /home/$var_user/.config
 
 
 ###-----Copiando_Repositorios_eww_install---------###
