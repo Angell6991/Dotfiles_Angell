@@ -56,8 +56,6 @@ alias icat="kitty +icat"
 alias suspend="systemctl suspend"
 alias py="python"
 alias buscar="sudo find / -name"
-# alias fastfetch="fastfetch --logo none"
-# alias fastfetch="fastfetch --logo  ~/Images/.wallpaper/akira.png"
 alias fastfetch="fastfetch --logo  ~/Images/.wallpaper/new_02.png"
 
 alias ls="exa --icons --group-directories-first"
@@ -65,7 +63,7 @@ alias tree="exa --icons --tree --level=2 --group-directories-first"
 alias cat="bat" 
 
 alias QR_scan="cat /tmp/scan_screenshot.txt"
-alias GPT="touch /tmp/GPT.md & tgpt --provider sky -i --log /tmp/GPT.md"
+alias GPT="touch /tmp/GPT.md & tgpt --provider pollinations -i --log /tmp/GPT.md"
 
 alias en="trans -b -I -t en"
 alias es="trans -b -I -t es"
@@ -84,23 +82,20 @@ alias mirror="sudo reflector --latest 20 --protocol https --sort rate --save /et
 # adb push archivo.ext /sdcard/Download/  #   Enviar archivo desde PC a teléfono
 # sudo alsactl restore  # retore config ALSA audio 
 
-# yt-dlp --no-playlist -t mp3 --add-metadata --embed-thumbnail --output "%(artist)s - %(title)s.%(ext)s"  "URL"
-yt-dlp-d() {
-    yt-dlp --no-playlist -t mp3 --add-metadata --embed-thumbnail --output "%(artist)s - %(title)s.%(ext)s" "$1"
-}
+
+bindkey -s '^Xga' 'git add'
+bindkey -s '^Xgc' 'git commit -m ""\C-b'
+bindkey -s '^Xgp' 'git push'
+bindkey -s '^Xy' 'yt-dlp --no-playlist -t mp3 --add-metadata --embed-thumbnail --output "%(artist)s - %(title)s.%(ext)s" ""\C-b'
 
 
 ###-------Definiendo_dierctorios_para_PATH---------###
 # informacion bateria istalar: sudo pacman -S tlp
 # informacion bateria: $ sudo tlp-stat -b
-export PATH=$PATH:/home/angell/.local/bin
-export PATH=$PATH:/home/angell/.eww/target/release
+export PATH="$HOME/.local/bin:$PATH"
 
 
 # /var/lib/iwd/ para ver passwrd red wiffi
 
 rm -rf ~/ly-session.log ~/Downloads ~/Descargas ~/.zcompdump-arch-5.9* ~/.zcompdump-arch-5.9.zwc
 
-
-# Created by `pipx` on 2026-02-04 01:39:20
-export PATH="$PATH:/home/angell/.local/bin"
