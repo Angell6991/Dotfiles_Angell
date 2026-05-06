@@ -83,9 +83,8 @@ alias mirror="sudo reflector --latest 20 --protocol https --sort rate --save /et
 # sudo alsactl restore  # retore config ALSA audio 
 
 
-bindkey -s '^Xga' 'git add'
+bindkey -s '^Xgk' 'git checkout'
 bindkey -s '^Xgc' 'git commit -m ""\C-b'
-bindkey -s '^Xgp' 'git push'
 bindkey -s '^Xy' 'yt-dlp --no-playlist -t mp3 --add-metadata --embed-thumbnail --output "%(artist)s - %(title)s.%(ext)s" ""\C-b'
 
 
