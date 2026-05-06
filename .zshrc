@@ -30,7 +30,6 @@ export LS_COLORS="$LS_COLORS:*.c=1;38:*.*.cpp=1;38:*.py=1;38:*.tex=0;35:*.txt=0;
 ###---------------plugins_oh_my_zsh----------------###
 plugins=(
         git
-        # fast-syntax-highlighting
         zsh-autosuggestions
         web-search
         fast-syntax-highlighting
@@ -81,6 +80,14 @@ alias mirror="sudo reflector --latest 20 --protocol https --sort rate --save /et
 # adb devices     #   Verificar que adb detecta el dispositivo
 # adb push archivo.ext /sdcard/Download/  #   Enviar archivo desde PC a teléfono
 # sudo alsactl restore  # retore config ALSA audio 
+
+###------------------Bindkeys----------------------###
+insert_tr_command() {
+  LBUFFER="tr -d '\n' < "
+  RBUFFER=" | wl-copy"
+}
+zle -N insert_tr_command
+bindkey '^Xc' insert_tr_command
 
 
 bindkey -s '^Xgk' 'git checkout'
