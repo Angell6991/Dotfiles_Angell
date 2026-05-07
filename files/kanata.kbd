@@ -1,0 +1,135 @@
+(defcfg
+      process-unmapped-keys yes
+)
+
+
+(defvar
+    tap-time    200
+    hold-time   200
+)
+
+
+(defalias
+    
+    1-mod (tap-hold $tap-time $hold-time 1 S-1) 
+    2-mod (tap-hold $tap-time $hold-time 2 S-2) 
+    3-mod (tap-hold $tap-time $hold-time 3 S-3) 
+    4-mod (tap-hold $tap-time $hold-time 4 S-4) 
+    5-mod (tap-hold $tap-time $hold-time 5 S-5) 
+    6-mod (tap-hold $tap-time $hold-time 6 S-6) 
+    7-mod (tap-hold $tap-time $hold-time 7 S-7) 
+    8-mod (tap-hold $tap-time $hold-time 8 S-8) 
+    9-mod (tap-hold $tap-time $hold-time 9 S-9) 
+    0-mod (tap-hold $tap-time $hold-time 0 S-0) 
+    
+    q-mod (tap-hold $tap-time $hold-time q S-q)
+    w-mod (tap-hold $tap-time $hold-time w S-w)
+    e-mod (tap-hold $tap-time $hold-time e S-e)
+    r-mod (tap-hold $tap-time $hold-time r S-r)
+    t-mod (tap-hold $tap-time $hold-time t S-t)
+    y-mod (tap-hold $tap-time $hold-time y S-y)
+    u-mod (tap-hold $tap-time $hold-time u S-u)
+    i-mod (tap-hold $tap-time $hold-time i S-i)
+    o-mod (tap-hold $tap-time $hold-time o S-o)
+    p-mod (tap-hold $tap-time $hold-time p S-p)
+
+    a-mod (tap-hold $tap-time $hold-time a S-a)
+    s-mod (tap-hold $tap-time $hold-time s S-s)
+    d-mod (tap-hold $tap-time $hold-time d S-d)
+    f-mod (tap-hold $tap-time $hold-time f S-f)
+    g-mod (tap-hold $tap-time $hold-time g S-g)
+    h-mod (tap-hold $tap-time $hold-time h S-h)
+    j-mod (tap-hold $tap-time $hold-time j S-j)
+    k-mod (tap-hold $tap-time $hold-time k S-k)
+    l-mod (tap-hold $tap-time $hold-time l S-l)
+    ñ-mod (tap-hold $tap-time $hold-time scln S-scln)
+
+    z-mod (tap-hold $tap-time $hold-time z S-z)
+    x-mod (tap-hold $tap-time $hold-time x S-x)
+    c-mod (tap-hold $tap-time $hold-time c S-c)
+    v-mod (tap-hold $tap-time $hold-time v S-v)
+    b-mod (tap-hold $tap-time $hold-time b S-b)
+    n-mod (tap-hold $tap-time $hold-time n S-n)
+    m-mod (tap-hold $tap-time $hold-time m S-m)
+
+
+    pipe-mod (tap-hold $tap-time $hold-time grv S-grv)      ;; pipe
+    caps-mod (layer-while-held normal) 
+    gr-mod (tap-hold $tap-time $hold-time 102d S-102d)      ;; <
+
+    simple-mod (tap-hold $tap-time $hold-time - S--)        ;; '
+    open-quest-mod (tap-hold $tap-time $hold-time = S-=)    ;; ¿
+
+    accent-mod (tap-hold $tap-time $hold-time lbrc S-lbrc)  ;; accent
+    plus-mod (tap-hold $tap-time $hold-time rbrc S-rbrc)    ;; +
+    bra-mod (tap-hold $tap-time $hold-time apos S-apos)     ;; {
+    ket-mod (tap-hold $tap-time $hold-time bksl S-bksl)     ;; }
+
+    comma-mod (tap-hold $tap-time $hold-time , S-,)         ;; comma
+    dot-mod (tap-hold $tap-time $hold-time . S-.)           ;; dot
+    minus-mod (tap-hold $tap-time $hold-time / S-/)         ;; -
+
+)
+
+
+(defsrc
+
+    1   2   3   4   5   
+    6   7   8   9   0   
+    q   w   e   r   t   
+    y   u   i   o   p   
+    a   s   d   f   g   
+    h   j   k   l   scln    
+    z   x   c   v   b
+    n   m
+
+    grv     caps    102d       
+    
+    -   =
+    lbrc    rbrc
+    apos    bksl
+    ,   .   /
+
+)
+
+(deflayer base
+
+    @1-mod  @2-mod  @3-mod  @4-mod  @5-mod  
+    @6-mod  @7-mod  @8-mod  @9-mod  @0-mod
+    @q-mod  @w-mod  @e-mod  @r-mod  @t-mod
+    @y-mod  @u-mod  @i-mod  @o-mod  @p-mod
+    @a-mod  @s-mod  @d-mod  @f-mod  @g-mod
+    @h-mod  @j-mod  @k-mod  @l-mod  @ñ-mod
+    @z-mod  @x-mod  @c-mod  @v-mod  @b-mod  
+    @n-mod  @m-mod
+    
+    @pipe-mod   @caps-mod   @gr-mod
+
+    @simple-mod @open-quest-mod
+    @accent-mod @plus-mod
+    @bra-mod    @ket-mod
+    @comma-mod  @dot-mod    @minus-mod
+        
+)
+
+(deflayer normal
+
+    1   2   3   4   5   
+    6   7   8   9   0   
+    q   w   e   r   t   
+    y   u   i   o   p   
+    a   s   d   f   g   
+    h   j   k   l   scln    
+    z   x   c   v   b
+    n   m
+
+    grv     caps    102d       
+    
+    -   =
+    lbrc    rbrc
+    apos    bksl
+    ,   .   /
+
+)
+
+
