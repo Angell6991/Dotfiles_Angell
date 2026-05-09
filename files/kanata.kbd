@@ -68,7 +68,7 @@
     comma-mod (tap-hold $tap-time $hold-time , S-,)         ;; comma
     dot-mod (tap-hold $tap-time $hold-time . S-.)           ;; dot
     minus-mod (tap-hold $tap-time $hold-time / S-/)         ;; -
-
+    shift-r-mod (tap-hold $tap-time $hold-time rsft ralt)   ;;  shift-right
 )
 
 
@@ -88,7 +88,7 @@
     -   =
     lbrc    rbrc
     apos    bksl
-    ,   .   /
+    ,   .   /   rsft
 
 )
 
@@ -108,7 +108,7 @@
     @simple-mod @open-quest-mod
     @accent-mod @plus-mod
     @bra-mod    @ket-mod
-    @comma-mod  @dot-mod    @minus-mod
+    @comma-mod  @dot-mod    @minus-mod  @shift-r-mod
         
 )
 
@@ -128,7 +128,7 @@
     -   =
     lbrc    rbrc
     apos    bksl
-    ,   .   /
+    ,   .   /   rsft
 
 )
 
