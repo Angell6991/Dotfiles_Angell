@@ -1,190 +1,204 @@
 format = """
-[󰣇 ](fg:#ff44a0)\
-[  ](fg:#00CCDE)\
-
-$username\
-$hostname\
+[](pink)\
 $directory\
-$git_branch\
-$git_state\
-$git_status\
-$cmd_duration\
-$line_break\
+[](fg:pink bg:cyan)\
+$c\
+$haskell\
+$java\
+$kotlin\
+$nodejs\
 $python\
+$rust\
+[](fg:cyan bg:gray)\
+$git_branch\
+$git_status\
+[ ](fg:cyan)\
+$line_break\
 $character"""
 
-[directory]
-read_only = "   "
-style = "blue"
+right_format = """
+$cmd_duration\
+[](cyan)\
+$time\
+[](fg:cyan bg:pink)\
+$username\
+[](fg:pink bg:pink)\
+$os\
+[ ](pink)"""
 
-[character]
-success_symbol = "[❯](#b2b2b2)"
-error_symbol = "[󰚌 ](#00CCDE) [❯](#ff44a0)"
-vimcmd_symbol = "[ ](#8d8d8d)"
+continuation_prompt = '▶▶ '
+
+# NUEVA PALETA (custom cyber grayscale)
+palette = 'cyber_grayscale'
+add_newline = true
+
+[os]
+disabled = false
+style = "bg:pink fg:black"
+
+[os.symbols]
+Windows = " "
+Ubuntu = "󰕈 "
+SUSE = " "
+Raspbian = "󰐿 "
+Mint = "󰣭 "
+Macos = "󰀵 "
+Manjaro = " "
+Linux = "󰌽 "
+Gentoo = "󰣨 "
+Fedora = "󰣛 "
+Alpine = " "
+Amazon = " "
+Android = " "
+Arch = "󰣇 "
+Artix = " "
+CentOS = " "
+Debian = "󰣚 "
+Redhat = "󱄛 "
+RedHatEnterprise = "󱄛 "
+
+[username]
+show_always = true
+style_user = "bg:pink fg:black"
+style_root = "bg:pink fg:black"
+format = '[ $user]($style)'
+
+[directory]
+style = "bg:pink fg:black"
+format = "[ $path ]($style)"
+truncation_length = 5
+truncation_symbol = "…/"
+
+[directory.substitutions]
+"Documents" = "󰈙 "
+"Downloads" = " "
+"Music" = "󰝚 "
+"Pictures" = " "
+"Developer" = "󰲋 "
 
 [git_branch]
-# symbol = " "
-format = "[ $branch]($style)"
-style = "bright-black"
+symbol = ""
+style = "bg:cyan"
+format = '[[ $symbol $branch ](fg:black bg:cyan)]($style)'
+
+[git_commit]
+commit_hash_length = 7
+format = '[\($hash$tag\)]($style)'
+tag_symbol = '🔖 '
 
 [git_status]
-format = "[[(  $conflicted$untracked$modified$staged$renamed$deleted)](#00CCDE) ($ahead_behind  )]($style)"
-# format = "[[(  $conflicted$untracked$modified$staged$renamed$deleted)](218) ($ahead_behind$stashed)]($style)"
-style = "#00CCDE"
-conflicted = "*"
-untracked = "  "
+style = "bg:cyan"
+format = "[[($conflicted$untracked$modified$staged$renamed$deleted)](fg:black bg:cyan)( $ahead_behind  )](fg:black bg:cyan)"
+conflicted = " 󱚡 "
+untracked = "  "
 modified = "  "
-staged = "  "
-renamed = " 󰏪 "
+staged = "  "
+renamed = "  "
 deleted = " 󱂥 "
-stashed = "≡"
+stashed = " 󰈉 "
 
-[git_state]
-format = '\([$state( $progress_current/$progress_total)]($style)\) '
-style = "bright-black"
-
-[cmd_duration]
-format = "[󰔛 $duration]($style) "
-style = "yellow"
-
-[python]
-# symbol = " "
-format = "[  ($virtualenv)]($style)"
-style = "#00CCDE"
-# style = "#61ffaf"
-
-[aws]
-symbol = "  "
-
-[buf]
-symbol = " "
+[nodejs]
+symbol = ""
+style = "bg:gray"
+format = '[[ $symbol( $version) ](fg:black bg:gray)]($style)'
 
 [c]
 symbol = " "
+style = "bg:gray"
+format = '[[ $symbol( $version) ](fg:black bg:gray)]($style)'
 
-[conda]
-symbol = " "
-
-[dart]
-symbol = " "
-
-
-[docker_context]
-symbol = " "
-
-[elixir]
-symbol = " "
-
-[elm]
-symbol = " "
-
-[fossil_branch]
-symbol = " "
-
+[rust]
+symbol = ""
+style = "bg:gray"
+format = '[[ $symbol( $version) ](fg:black bg:gray)]($style)'
 
 [golang]
-symbol = " "
+symbol = ""
+style = "bg:gray"
+format = '[[ $symbol( $version) ](fg:black bg:gray)]($style)'
 
-[guix_shell]
-symbol = " "
-
-[haskell]
-symbol = " "
-
-[haxe]
-symbol = "⌘ "
-
-[hg_branch]
-symbol = " "
-
-[hostname]
-ssh_symbol = " "
+[php]
+symbol = ""
+style = "bg:gray"
+format = '[[ $symbol( $version) ](fg:black bg:gray)]($style)'
 
 [java]
 symbol = " "
+style = "bg:gray"
+format = '[[ $symbol( $version) ](fg:black bg:gray)]($style)'
 
-[julia]
-symbol = " "
+[kotlin]
+symbol = ""
+style = "bg:gray"
+format = '[[ $symbol( $version) ](fg:black bg:gray)]($style)'
 
-[lua]
-symbol = " "
+[haskell]
+symbol = ""
+style = "bg:gray"
+format = '[[ $symbol( $version) ](fg:black bg:gray)]($style)'
 
-[memory_usage]
-symbol = " "
+[python]
+symbol = ""
+style = "bg:gray"
+format = '[[ $symbol( $version)(\(#$virtualenv\)) ](fg:black bg:gray)]($style)'
 
-[meson]
-symbol = "喝 "
+[docker_context]
+symbol = ""
+style = "bg:cyan"
+format = '[[ $symbol( $context) ](fg:black bg:cyan)]($style)'
 
-[nim]
-symbol = " "
+[conda]
+symbol = "  "
+style = "fg:black bg:cyan"
+format = '[$symbol$environment ]($style)'
+ignore_base = false
 
-[nix_shell]
-symbol = " "
+[time]
+disabled = false
+time_format = "%R"
+style = "bg:cyan"
+format = '[[ 󰥔 $time ](fg:black bg:cyan)]($style)'
 
-[nodejs]
-symbol = " "
+[line_break]
+disabled = true
 
-[os.symbols]
-Alpaquita = " "
-Alpine = " "
-Amazon = " "
-Android = " "
-Arch = " "
-Artix = " "
-CentOS = " "
-Debian = " "
-DragonFly = " "
-Emscripten = " "
-EndeavourOS = " "
-Fedora = " "
-FreeBSD = " "
-Garuda = "﯑ "
-Gentoo = " "
-HardenedBSD = "ﲊ "
-Illumos = " "
-Linux = " "
-Mabox = " "
-Macos = " "
-Manjaro = " "
-Mariner = " "
-MidnightBSD = " "
-Mint = " "
-NetBSD = " "
-NixOS = " "
-OpenBSD = " "
-openSUSE = " "
-OracleLinux = " "
-Pop = " "
-Raspbian = " "
-Redhat = " "
-RedHatEnterprise = " "
-Redox = " "
-Solus = "ﴱ "
-SUSE = " "
-Ubuntu = " "
-Unknown = " "
-Windows = " "
+[character]
+disabled = false
+success_symbol = '[  ](bold fg:green)'
+error_symbol = '[  ](bold fg:red)'
+vimcmd_symbol = '[  ](bold fg:green)'
+vimcmd_replace_one_symbol = '[  ](bold fg:cyan)'
+vimcmd_replace_symbol = '[❮](bold fg:cyan)'
+vimcmd_visual_symbol = '[❮](bold fg:pink)'
 
-[package]
-symbol = " "
-
-[pijul_channel]
-symbol = "🪺 "
+[cmd_duration]
+show_milliseconds = false
+format = "󰓅 $duration "
+style = "bg:cyan"
+disabled = false
+show_notifications = false
+min_time_to_notify = 45000
 
 
-[rlang]
-symbol = "ﳒ "
+# =========================
+# PALETA PERSONALIZADA
+# ========================
+[palettes.cyber_grayscale]
+black = "#1e1e1e"
+gray = "#00daf0"
+gray_soft = "#555555"
 
-[ruby]
-symbol = " "
+text = "#d6d6d6"
+muted = "#a0a0a0"
 
-[rust]
-symbol = " "
+# pink = "#ff1493"
+pink = "#c06090"
+pink_soft = "#ff69b4"
 
-[scala]
-symbol = " "
+cyan = "#00daf0"
+cyan_soft = "#7befff"
 
-[spack]
-symbol = "🅢 "
+white = "#ffffff"
+
 
 
