@@ -75,7 +75,7 @@ alias cpu_level="/lib64/ld-linux-x86-64.so.2 --help | sed -n '/Subdirectories of
 # udiskie-umount /run/media/user/*  #   desmontar todas la USB
 # simple-mtpfs ~/USB                #   montar android
 # sudo mount -o loop dir/unidad.iso ~/USB   #   montar iso
-
+# fc-list | grep "name font"  # consulta el nobre de la fonts
 ##--- activar depuracion usb con el modo desarrolador en android ---##
 
 # adb devices     #   Verificar que adb detecta el dispositivo
