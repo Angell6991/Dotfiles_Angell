@@ -6,7 +6,7 @@
 clear
 echo    "Install fonts ..."
 
-pacman -S --noconfirm ttf-dejavu ttf-liberation ttf-inconsolata ttf-roboto ttf-ubuntu-font-family ttf-freefont noto-fonts ttf-arphic-uming ttf-arphic-ukai ttf-indic-otf noto-fonts-cjk noto-fonts-emoji noto-fonts-extra 
+pacman -S --noconfirm ttf-dejavu ttf-liberation ttf-inconsolata ttf-roboto ttf-ubuntu-font-family ttf-freefont noto-fonts ttf-arphic-uming ttf-arphic-ukai ttf-indic-otf noto-fonts-cjk noto-fonts-emoji noto-fonts-extra ttf-heavydata-nerd ttf-gohu-nerd 
 
 ###------crea_carpetas_en_el_directorio_de_fonts--###
 mkdir /usr/share/fonts/3270
@@ -35,15 +35,20 @@ mv  star_cratf_logo/starcraft-logos.ttf /usr/share/fonts
 ###---------------Install_Themes------------------###
 unzip files/themes/Future-dark-cursors.zip
 unzip files/themes/Moga-Neon-Water.zip
+unzip files/themes/Moga-Neon-Magenta.zip
 
 tar -xf files/Themes/oreo-white-cursors.tar.gz
 tar -xf files/Themes/oreo_pink_cursors.tar.gz
 tar -xf files/Themes/Graphite-Dark.tar.xz
+tar -xf files/Themes/Dracula.tar.xz
 
+
+mv  Moga-Neon-Magenta /usr/share/icons
 mv  Moga-Neon-Water /usr/share/icons
 mv  Future-dark-cursors /usr/share/icons
 mv  oreo_pink_cursors /usr/share/icons
 mv  oreo_white_cursors /usr/share/icons
+mv  Dracula /usr/share/themes
 mv  Graphite-blue-Dark Graphite-Dark Graphite-green-Dark Graphite-orange-Dark Graphite-pink-Dark Graphite-purple-Dark Graphite-red-Dark Graphite-teal-Dark Graphite-yellow-Dark /usr/share/themes
 
 
