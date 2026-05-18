@@ -95,6 +95,12 @@ bindkey -s '^Xgk' 'git checkout'
 bindkey -s '^Xgc' 'git commit -m ""\C-b'
 bindkey -s '^Xy' 'yt-dlp --no-playlist -t mp3 --add-metadata --embed-thumbnail --output "%(artist)s - %(title)s.%(ext)s" ""\C-b'
 
+###---------------Busqueda_difuza_fzf--------------###
+source <(fzf --zsh)
+HISTFILE=~/.zsh_history
+HISTSIZE=10000
+SAVEHIST=10000
+setopt appendhistory
 
 ###-------Definiendo_dierctorios_para_PATH---------###
 # informacion bateria istalar: sudo pacman -S tlp
