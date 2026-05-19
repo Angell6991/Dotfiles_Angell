@@ -82,7 +82,7 @@ alias cpu_level="/lib64/ld-linux-x86-64.so.2 --help | sed -n '/Subdirectories of
 # adb push archivo.ext /sdcard/Download/  #   Enviar archivo desde PC a teléfono
 # sudo alsactl restore  # retore config ALSA audio 
 # ffmpeg -i skull.gif -vf scale=100:-1 skull_small.gif # resize for gitfs
-
+# magick name_img.png -resize 50% new_name_img.png  # resize for imagens
 
 ###------------------Bindkeys----------------------###
 insert_tr_command() {
