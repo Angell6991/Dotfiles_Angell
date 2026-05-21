@@ -73,6 +73,7 @@ sudo ./install_post.sh
 ## Switching between window types
 | Keys | Action |
 |:-|:-|
+|<kbd>SUPER</kbd> + <kbd>ctrl</kbd> + <kbd>f</kbd>| togglefullscreen
 |<kbd>SUPER</kbd> + <kbd>f</kbd>| togglefloating
 |<kbd>SUPER</kbd> + <kbd>p</kbd>| pseudo, # dwindle
 |<kbd>SUPER</kbd> + <kbd>j</kbd>| togglesplit, # dwindle
