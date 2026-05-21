@@ -6,6 +6,11 @@
 (defvar
     tap-time    200
     hold-time   200
+
+    mw-initial-v 3
+    mw-maximum-v 1200
+    mw-accel 1.15
+    mw-decel 0.93
 )
 
 
@@ -69,6 +74,11 @@
     dot-mod (tap-hold $tap-time $hold-time . S-.)           ;; dot
     minus-mod (tap-hold $tap-time $hold-time / S-/)         ;; -
     shift-r-mod (tap-hold $tap-time $hold-time rsft ralt)   ;;  shift-right
+
+
+    mwu (mwheel-accel-up   $mw-initial-v $mw-maximum-v $mw-accel $mw-decel) ;; scroll mause up
+    mwd (mwheel-accel-down $mw-initial-v $mw-maximum-v $mw-accel $mw-decel) ;; scroll mause dowm
+
 )
 
 
@@ -90,6 +100,7 @@
     apos    bksl
     ,   .   /   rsft
 
+    up  down
 )
 
 (deflayer base
@@ -102,14 +113,15 @@
     @h-mod  @j-mod  @k-mod  @l-mod  @ñ-mod
     @z-mod  @x-mod  @c-mod  @v-mod  @b-mod  
     @n-mod  @m-mod
-    
+
     @pipe-mod   @caps-mod   @gr-mod
 
     @simple-mod @open-quest-mod
     @accent-mod @plus-mod
     @bra-mod    @ket-mod
     @comma-mod  @dot-mod    @minus-mod  @shift-r-mod
-        
+       
+    up  down
 )
 
 (deflayer normal
@@ -130,6 +142,7 @@
     apos    bksl
     ,   .   /   rsft
 
+    @mwu    @mwd
 )
 
 
