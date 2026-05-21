@@ -100,7 +100,8 @@ sudo ./install_post.sh
 |:-|:-|
 |<kbd>SUPER</kbd> + <kbd>left, right, up, down</kbd>| Move the focus of the windows
 |<kbd>SUPER</kbd> + <kbd>SHIFT</kbd> + <kbd>left, right, up, down</kbd>| Movewindow
-|<kbd>SUPER</kbd> + <kbd>tab</kbd>| Move the focus of the windows
+|<kbd>ctrl</kbd> + <kbd>SHIFT</kbd> + <kbd>j, l, i, k</kbd>| Resize window
+|<kbd>SUPER</kbd> + <kbd>tab</kbd>| Move focus between float and tilling
 |<kbd>SUPER</kbd> + <kbd>ctrl</kbd> + <kbd>left, right, up, down</kbd>| Move focus between active workspaces
 |<kbd>SUPER</kbd> + <kbd>1, 2, 3, 4, 5, 6</kbd>| Moving between workspaces
 |<kbd>SUPER</kbd> + <kbd>ctrl</kbd> + <kbd>1, 2, 3, 4, 5, 6</kbd>| Move window to a workspace
@@ -109,8 +110,6 @@ sudo ./install_post.sh
 ## Active submap: SUPER + r
 | Keys | Action |
 |:-|:-|
-|<kbd>SUPER</kbd> + <kbd>left, right, up, down</kbd>| Resize window
-|<kbd>SUPER</kbd> + <kbd>SHIFT</kbd> + <kbd>left, right, up, down</kbd>| Move float window
 |<kbd>w</kbd> | changing wallpaper
 |<kbd>esc: escape</kbd> | exit mode submap
 
