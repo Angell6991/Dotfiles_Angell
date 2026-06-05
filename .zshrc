@@ -68,6 +68,10 @@ alias en="trans -b -I -t en"
 alias es="trans -b -I -t es"
 alias mirror="sudo reflector --latest 20 --protocol https --sort rate --save /etc/pacman.d/mirrorlist"
 alias cpu_level="/lib64/ld-linux-x86-64.so.2 --help | sed -n '/Subdirectories of glibc-hwcaps/,+10p'"
+
+alias clipboart="cliphist list | fzf --no-sort | cliphist decode | wl-copy"
+alias D_clipboart="cliphist list | fzf | cliphist delete"
+
 # which name_program    #   buscar ubicacion de un binario
 # du --max-depth=1 -h   #   ver espacio que ocupa en el disco 
 # df -h                 #   ver unidades de almacenamiento y puntos de montaje
