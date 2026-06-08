@@ -8,7 +8,7 @@ pacman -S --noconfirm zathura zathura-pdf-mupdf zathura-ps zathura-djvu zathura-
 
 pacman -S --noconfirm base-devel git 
 
-pacman -S --noconfirm gvfs-mtp mtpfs simple-mtpfs cliphist 
+pacman -S --noconfirm gvfs-mtp mtpfs simple-mtpfs cliphist polkit-gnome
 
 pacman -S --noconfirm tgpt ufw udiskie mousai
 
