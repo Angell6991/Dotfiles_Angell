@@ -62,7 +62,7 @@ alias tree="exa --icons --tree --level=2 --group-directories-first"
 alias cat="bat" 
 
 alias QR_scan="cat /tmp/scan_screenshot.txt"
-alias GPT="touch /tmp/GPT.md & tgpt --provider pollinations -i --log /tmp/GPT.md"
+alias GPT="touch /tmp/GPT.md & tgpt --provider sky -i --log /tmp/GPT.md"
 
 alias en="trans -b -I -t en"
 alias es="trans -b -I -t es"
@@ -101,6 +101,7 @@ bindkey '^Xc' insert_tr_command
 bindkey -s '^Xgk' 'git checkout'
 bindkey -s '^Xgc' 'git commit -m ""\C-b'
 bindkey -s '^Xy' 'yt-dlp --no-playlist -t mp3 --add-metadata --embed-thumbnail --output "%(artist)s - %(title)s.%(ext)s" ""\C-b'
+bindkey -s '^Xj' 'journalctl | grep -i -e '\''fail'\'' -e '\''error'\'' -e '\''reboot'\'' >> .txt\C-b\C-b\C-b\C-b'
 
 ###---------------Busqueda_difuza_fzf--------------###
 source <(fzf --zsh)
@@ -113,7 +114,6 @@ setopt appendhistory
 # informacion bateria istalar: sudo pacman -S tlp
 # informacion bateria: $ sudo tlp-stat -b
 export PATH="$HOME/.local/bin:$PATH"
-
 
 # /var/lib/iwd/ para ver passwrd red wiffi
 
