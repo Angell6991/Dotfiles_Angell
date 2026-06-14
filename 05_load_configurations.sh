@@ -90,6 +90,8 @@ mv  files/starship-ghostty.toml /home/$var_user/.config
 
 ###------------Eliminar_buttos_Gnome--------------###
 gsettings set org.gnome.desktop.wm.preferences button-layout ':'
+mv  files/gtk-3.0   ~/.config/
+mv  files/gtk-4.0   ~/.config/
 
 ###----------hacer_que_root_use_zsh---------------###
 # chsh -s /bin/zsh root
